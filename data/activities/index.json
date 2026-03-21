@@ -1,0 +1,3639 @@
+[
+  {
+    "slug": "skydiving",
+    "name": "Skydiving",
+    "emoji": "🪂",
+    "category": "extreme-sports",
+    "description": "Tandem or solo freefall from 10,000-15,000 feet",
+    "risk": {
+      "micromorts": 8,
+      "microlives": 0,
+      "lifeDisruption": 1,
+      "legal": 0
+    },
+    "fun": {
+      "dopamine": 8,
+      "subjectivePleasure": 4.5,
+      "flowState": 9,
+      "hedonicPurity": 9
+    },
+    "sources": [
+      {
+        "title": "USPA Skydiving Safety",
+        "url": "https://uspa.org/discover/faqs/safety"
+      },
+      {
+        "title": "Spiegelhalter — Microlives (BMJ 2012)",
+        "url": "https://www.bmj.com/content/345/bmj.e8223"
+      }
+    ]
+  },
+  {
+    "slug": "rock-climbing-outdoor",
+    "name": "Rock Climbing (Outdoor)",
+    "emoji": "🧗",
+    "category": "extreme-sports",
+    "description": "Outdoor sport or trad climbing on natural rock",
+    "risk": {
+      "micromorts": 3,
+      "microlives": 0,
+      "lifeDisruption": 2,
+      "legal": 0
+    },
+    "fun": {
+      "dopamine": 6,
+      "subjectivePleasure": 4.2,
+      "flowState": 9,
+      "hedonicPurity": 9
+    },
+    "sources": [
+      {
+        "title": "AAC Accidents in North American Climbing",
+        "url": "https://publications.americanalpineclub.org/search/accidents"
+      }
+    ]
+  },
+  {
+    "slug": "base-jumping",
+    "name": "BASE Jumping",
+    "emoji": "🏔️",
+    "category": "extreme-sports",
+    "description": "Parachute jump from fixed objects (buildings, antennas, spans, earth)",
+    "risk": {
+      "micromorts": 430,
+      "microlives": 0,
+      "lifeDisruption": 2,
+      "legal": 3
+    },
+    "fun": {
+      "dopamine": 9,
+      "subjectivePleasure": 4.8,
+      "flowState": 10,
+      "hedonicPurity": 9
+    },
+    "sources": [
+      {
+        "title": "Søreide et al. — BASE Jumping Fatality Analysis",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/17495551/"
+      }
+    ]
+  },
+  {
+    "slug": "scuba-diving",
+    "name": "Scuba Diving",
+    "emoji": "🤿",
+    "category": "sports",
+    "description": "Recreational open-water scuba diving (certified, <40m)",
+    "risk": {
+      "micromorts": 5,
+      "microlives": 0,
+      "lifeDisruption": 0.5,
+      "legal": 0
+    },
+    "fun": {
+      "dopamine": 5,
+      "subjectivePleasure": 4,
+      "flowState": 7,
+      "hedonicPurity": 9
+    },
+    "sources": [
+      {
+        "title": "DAN Annual Diving Report",
+        "url": "https://dan.org/safety-prevention/dan-safety-services/"
+      }
+    ]
+  },
+  {
+    "slug": "surfing",
+    "name": "Surfing",
+    "emoji": "🏄",
+    "category": "sports",
+    "description": "Recreational surfing in moderate conditions",
+    "risk": {
+      "micromorts": 2.5,
+      "microlives": 0,
+      "lifeDisruption": 1,
+      "legal": 0
+    },
+    "fun": {
+      "dopamine": 7,
+      "subjectivePleasure": 4.3,
+      "flowState": 9,
+      "hedonicPurity": 9
+    },
+    "sources": [
+      {
+        "title": "Surfing Medicine International",
+        "url": "https://www.surfingmedicine.org/resources/"
+      }
+    ]
+  },
+  {
+    "slug": "running-marathon",
+    "name": "Running a Marathon",
+    "emoji": "🏃",
+    "category": "sports",
+    "description": "Completing a full 42.2km marathon",
+    "risk": {
+      "micromorts": 7,
+      "microlives": 0,
+      "lifeDisruption": 1,
+      "legal": 0
+    },
+    "fun": {
+      "dopamine": 7,
+      "subjectivePleasure": 3,
+      "flowState": 8,
+      "hedonicPurity": 8
+    },
+    "sources": [
+      {
+        "title": "Kim et al. — Cardiac Arrest during Long-Distance Running (NEJM)",
+        "url": "https://www.nejm.org/doi/full/10.1056/NEJMoa1106468"
+      },
+      {
+        "title": "Spiegelhalter — Microlives (BMJ 2012)",
+        "url": "https://www.bmj.com/content/345/bmj.e8223"
+      }
+    ]
+  },
+  {
+    "slug": "skiing",
+    "name": "Skiing (Downhill)",
+    "emoji": "⛷️",
+    "category": "sports",
+    "description": "A day of recreational downhill skiing at a resort",
+    "risk": {
+      "micromorts": 0.7,
+      "microlives": 0,
+      "lifeDisruption": 1.5,
+      "legal": 0
+    },
+    "fun": {
+      "dopamine": 6,
+      "subjectivePleasure": 4.2,
+      "flowState": 8,
+      "hedonicPurity": 9
+    },
+    "sources": [
+      {
+        "title": "NSAA Facts About Skiing/Snowboarding Safety",
+        "url": "https://www.nsaa.org/safety-programs/"
+      }
+    ]
+  },
+  {
+    "slug": "motorcycle-riding",
+    "name": "Motorcycle Riding (100 mi)",
+    "emoji": "🏍️",
+    "category": "travel",
+    "description": "Riding a motorcycle for 100 miles on mixed roads",
+    "risk": {
+      "micromorts": 17,
+      "microlives": 0,
+      "lifeDisruption": 3,
+      "legal": 0
+    },
+    "fun": {
+      "dopamine": 6,
+      "subjectivePleasure": 4,
+      "flowState": 7,
+      "hedonicPurity": 8
+    },
+    "sources": [
+      {
+        "title": "NHTSA Fatality Analysis Reporting System (FARS)",
+        "url": "https://www.nhtsa.gov/research-data/fatality-analysis-reporting-system-fars"
+      }
+    ]
+  },
+  {
+    "slug": "driving-car-100mi",
+    "name": "Driving a Car (100 mi)",
+    "emoji": "🚗",
+    "category": "everyday",
+    "description": "Driving 100 miles on highways and local roads",
+    "risk": {
+      "micromorts": 0.4,
+      "microlives": 0,
+      "lifeDisruption": 0.5,
+      "legal": 0
+    },
+    "fun": {
+      "dopamine": 2,
+      "subjectivePleasure": 2,
+      "flowState": 3,
+      "hedonicPurity": 7
+    },
+    "sources": [
+      {
+        "title": "NHTSA Fatality Analysis Reporting System (FARS)",
+        "url": "https://www.nhtsa.gov/research-data/fatality-analysis-reporting-system-fars"
+      }
+    ]
+  },
+  {
+    "slug": "walking-city",
+    "name": "Walking Around the City",
+    "emoji": "🚶",
+    "category": "everyday",
+    "description": "A leisurely 2-mile walk in an urban environment",
+    "risk": {
+      "micromorts": 0.1,
+      "microlives": 0,
+      "lifeDisruption": 0,
+      "legal": 0
+    },
+    "fun": {
+      "dopamine": 3,
+      "subjectivePleasure": 3.5,
+      "flowState": 4,
+      "hedonicPurity": 9
+    },
+    "sources": [
+      {
+        "title": "Spiegelhalter — Microlives (BMJ 2012)",
+        "url": "https://www.bmj.com/content/345/bmj.e8223"
+      }
+    ]
+  },
+  {
+    "slug": "smoking-cigarette",
+    "name": "Smoking a Cigarette",
+    "emoji": "🚬",
+    "category": "substances",
+    "description": "Smoking one cigarette (acute session, chronic risk per cigarette)",
+    "note": "Chronic risk dominates. 20/day smoker loses ~7 years. Per-cigarette: ~0.4 microlives.",
+    "risk": {
+      "micromorts": 0.01,
+      "microlives": 0.4,
+      "defaultFrequency": 7300,
+      "lifeDisruption": 4,
+      "legal": 0
+    },
+    "fun": {
+      "dopamine": 5,
+      "subjectivePleasure": 2.5,
+      "flowState": 2,
+      "hedonicPurity": 2
+    },
+    "sources": [
+      {
+        "title": "Spiegelhalter — Microlives: A Common Unit for Communicating Risk (BMJ 2012)",
+        "url": "https://www.bmj.com/content/345/bmj.e8223"
+      },
+      {
+        "title": "CDC — Health Effects of Smoking",
+        "url": "https://www.cdc.gov/tobacco/about/health-effects.html"
+      }
+    ]
+  },
+  {
+    "slug": "drinking-beer",
+    "name": "Drinking a Beer",
+    "emoji": "🍺",
+    "category": "food-drink",
+    "description": "One standard drink (12oz beer, ~5% ABV)",
+    "note": "First drink may be net-neutral or slightly protective per microlife literature. Risk rises with 2nd+.",
+    "risk": {
+      "micromorts": 0.005,
+      "microlives": 0,
+      "lifeDisruption": 0.5,
+      "legal": 0
+    },
+    "fun": {
+      "dopamine": 4,
+      "subjectivePleasure": 3.5,
+      "flowState": 3,
+      "hedonicPurity": 7
+    },
+    "sources": [
+      {
+        "title": "Spiegelhalter — Microlives (BMJ 2012)",
+        "url": "https://www.bmj.com/content/345/bmj.e8223"
+      },
+      {
+        "title": "GBD — Population-Level Risks of Alcohol Consumption (Lancet 2022)",
+        "url": "https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(22)00847-9/fulltext"
+      }
+    ]
+  },
+  {
+    "slug": "drinking-heavy-night",
+    "name": "Heavy Drinking Night (6+ drinks)",
+    "emoji": "🥴",
+    "category": "substances",
+    "description": "Binge drinking session of 6+ standard drinks",
+    "risk": {
+      "micromorts": 2,
+      "microlives": 3,
+      "lifeDisruption": 5,
+      "legal": 2
+    },
+    "fun": {
+      "dopamine": 7,
+      "subjectivePleasure": 3.8,
+      "flowState": 3,
+      "hedonicPurity": 2
+    },
+    "sources": [
+      {
+        "title": "CDC — Facts About Excessive Alcohol Use Deaths",
+        "url": "https://www.cdc.gov/alcohol/facts-stats/index.html"
+      },
+      {
+        "title": "Spiegelhalter — Microlives (BMJ 2012)",
+        "url": "https://www.bmj.com/content/345/bmj.e8223"
+      }
+    ]
+  },
+  {
+    "slug": "cannabis-smoking",
+    "name": "Smoking Cannabis",
+    "emoji": "🌿",
+    "category": "substances",
+    "description": "Smoking one joint or equivalent",
+    "risk": {
+      "micromorts": 0.001,
+      "microlives": 0.1,
+      "lifeDisruption": 2,
+      "legal": 3
+    },
+    "fun": {
+      "dopamine": 5,
+      "subjectivePleasure": 3.8,
+      "flowState": 5,
+      "hedonicPurity": 5
+    },
+    "sources": [
+      {
+        "title": "NORML — Marijuana Exposure and Mortality",
+        "url": "https://norml.org/marijuana/fact-sheets/marijuana-exposure-and-mortality/"
+      },
+      {
+        "title": "NORML — State Cannabis Laws",
+        "url": "https://norml.org/laws/"
+      }
+    ]
+  },
+  {
+    "slug": "mdma-ecstasy",
+    "name": "Taking MDMA/Ecstasy",
+    "emoji": "💊",
+    "category": "substances",
+    "description": "One recreational dose (~100mg) at a social event",
+    "risk": {
+      "micromorts": 5,
+      "microlives": 0.5,
+      "lifeDisruption": 4,
+      "legal": 8
+    },
+    "fun": {
+      "dopamine": 9,
+      "subjectivePleasure": 4.8,
+      "flowState": 7,
+      "hedonicPurity": 3
+    },
+    "sources": [
+      {
+        "title": "ONS — Deaths Related to Drug Poisoning in England and Wales",
+        "url": "https://www.ons.gov.uk/peoplepopulationandcommunity/birthsdeathsandmarriages/deaths/bulletins/deathsrelatedtodrugpoisoninginenglandandwales/latest"
+      },
+      {
+        "title": "Nutt et al. — Drug Harms in the UK: A Multicriteria Decision Analysis (Lancet 2010)",
+        "url": "https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(10)61462-6/fulltext"
+      }
+    ]
+  },
+  {
+    "slug": "cocaine-line",
+    "name": "Doing a Line of Cocaine",
+    "emoji": "❄️",
+    "category": "substances",
+    "description": "One recreational dose of cocaine (insufflated)",
+    "risk": {
+      "micromorts": 10,
+      "microlives": 1,
+      "lifeDisruption": 6,
+      "legal": 9
+    },
+    "fun": {
+      "dopamine": 8,
+      "subjectivePleasure": 4,
+      "flowState": 5,
+      "hedonicPurity": 2
+    },
+    "sources": [
+      {
+        "title": "AHA — Cocaine and Cardiovascular Complications",
+        "url": "https://www.ahajournals.org/doi/10.1161/CIRCULATIONAHA.110.940569"
+      },
+      {
+        "title": "Nutt et al. — Drug Harms in the UK (Lancet 2010)",
+        "url": "https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(10)61462-6/fulltext"
+      }
+    ]
+  },
+  {
+    "slug": "heroin-injection",
+    "name": "Injecting Heroin",
+    "emoji": "💉",
+    "category": "substances",
+    "description": "One IV heroin dose (street supply, unknown purity)",
+    "risk": {
+      "micromorts": 250,
+      "microlives": 5,
+      "lifeDisruption": 10,
+      "legal": 10
+    },
+    "fun": {
+      "dopamine": 10,
+      "subjectivePleasure": 4.9,
+      "flowState": 2,
+      "hedonicPurity": 0
+    },
+    "sources": [
+      {
+        "title": "ONS — Deaths Related to Drug Poisoning in England and Wales",
+        "url": "https://www.ons.gov.uk/peoplepopulationandcommunity/birthsdeathsandmarriages/deaths/bulletins/deathsrelatedtodrugpoisoninginenglandandwales/latest"
+      },
+      {
+        "title": "CDC — Fentanyl and Overdose Prevention",
+        "url": "https://www.cdc.gov/overdose-prevention/about/fentanyl.html"
+      }
+    ]
+  },
+  {
+    "slug": "sex-protected",
+    "name": "Sex (with Condom)",
+    "emoji": "🔒",
+    "category": "sex",
+    "description": "Vaginal intercourse with condom, established partner",
+    "risk": {
+      "micromorts": 0.001,
+      "microlives": 0,
+      "lifeDisruption": 0.5,
+      "legal": 0
+    },
+    "fun": {
+      "dopamine": 7,
+      "subjectivePleasure": 4.2,
+      "flowState": 6,
+      "hedonicPurity": 8
+    },
+    "sources": [
+      {
+        "title": "CDC — Condom Use and STI Prevention",
+        "url": "https://www.cdc.gov/condomuse/index.html"
+      },
+      {
+        "title": "CDC — Contraception Effectiveness",
+        "url": "https://www.cdc.gov/reproductive-health/contraception/index.html"
+      }
+    ]
+  },
+  {
+    "slug": "sex-unprotected",
+    "name": "Sex (without Condom)",
+    "emoji": "🔓",
+    "category": "sex",
+    "description": "Vaginal intercourse without condom, no other contraception",
+    "note": "Risk dramatically varies by partner's STI status, fertility status, etc.",
+    "risk": {
+      "micromorts": 0.01,
+      "microlives": 0.1,
+      "lifeDisruption": 6,
+      "legal": 0
+    },
+    "fun": {
+      "dopamine": 8,
+      "subjectivePleasure": 4.5,
+      "flowState": 7,
+      "hedonicPurity": 7
+    },
+    "sources": [
+      {
+        "title": "ACOG — Evaluating Infertility",
+        "url": "https://www.acog.org/womens-health/faqs/evaluating-infertility"
+      },
+      {
+        "title": "CDC — STI Surveillance Report",
+        "url": "https://www.cdc.gov/std/statistics/default.htm"
+      }
+    ]
+  },
+  {
+    "slug": "eating-sushi",
+    "name": "Eating Sushi",
+    "emoji": "🍣",
+    "category": "food-drink",
+    "description": "A restaurant meal of raw fish sushi",
+    "risk": {
+      "micromorts": 0.005,
+      "microlives": 0,
+      "lifeDisruption": 0,
+      "legal": 0
+    },
+    "fun": {
+      "dopamine": 4,
+      "subjectivePleasure": 4,
+      "flowState": 3,
+      "hedonicPurity": 8
+    },
+    "sources": [
+      {
+        "title": "FDA — Seafood Safety and Foodborne Illness",
+        "url": "https://www.fda.gov/food/people-risk-foodborne-illness/selecting-and-serving-fresh-and-frozen-seafood-safely"
+      }
+    ]
+  },
+  {
+    "slug": "eating-fugu",
+    "name": "Eating Fugu (Pufferfish)",
+    "emoji": "🐡",
+    "category": "food-drink",
+    "description": "Eating properly prepared pufferfish at a licensed restaurant in Japan",
+    "risk": {
+      "micromorts": 50,
+      "microlives": 0,
+      "lifeDisruption": 0,
+      "legal": 0
+    },
+    "fun": {
+      "dopamine": 5,
+      "subjectivePleasure": 3.8,
+      "flowState": 3,
+      "hedonicPurity": 8
+    },
+    "sources": [
+      {
+        "title": "Japan MoH — Fugu Poisoning Statistics",
+        "url": "https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/kenkou_iryou/shokuhin/syokuchu/poison/index.html"
+      }
+    ]
+  },
+  {
+    "slug": "gambling-casino-night",
+    "name": "Casino Night (4 hours)",
+    "emoji": "🎰",
+    "category": "gambling",
+    "description": "4 hours of table games and slots at a casino",
+    "risk": {
+      "micromorts": 0,
+      "microlives": 0,
+      "lifeDisruption": 4,
+      "legal": 0
+    },
+    "fun": {
+      "dopamine": 7,
+      "subjectivePleasure": 3.5,
+      "flowState": 6,
+      "hedonicPurity": 3
+    },
+    "sources": [
+      {
+        "title": "NCPG — Problem Gambling FAQ",
+        "url": "https://www.ncpgambling.org/help-treatment/faq/"
+      }
+    ]
+  },
+  {
+    "slug": "bungee-jumping",
+    "name": "Bungee Jumping",
+    "emoji": "🤸",
+    "category": "extreme-sports",
+    "description": "One bungee jump from a commercial bridge/crane",
+    "risk": {
+      "micromorts": 10,
+      "microlives": 0,
+      "lifeDisruption": 0.5,
+      "legal": 0
+    },
+    "fun": {
+      "dopamine": 8,
+      "subjectivePleasure": 4,
+      "flowState": 7,
+      "hedonicPurity": 9
+    },
+    "sources": [
+      {
+        "title": "Bungee Jumping Safety — Injury Epidemiology",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/12801950/"
+      }
+    ]
+  },
+  {
+    "slug": "horseback-riding",
+    "name": "Horseback Riding",
+    "emoji": "🐴",
+    "category": "sports",
+    "description": "One hour of recreational horseback riding",
+    "risk": {
+      "micromorts": 0.5,
+      "microlives": 0,
+      "lifeDisruption": 1,
+      "legal": 0
+    },
+    "fun": {
+      "dopamine": 4,
+      "subjectivePleasure": 3.8,
+      "flowState": 6,
+      "hedonicPurity": 9
+    },
+    "sources": [
+      {
+        "title": "Spiegelhalter — Microlives (BMJ 2012)",
+        "url": "https://www.bmj.com/content/345/bmj.e8223"
+      }
+    ]
+  },
+  {
+    "slug": "general-anesthesia",
+    "name": "Going Under General Anesthesia",
+    "emoji": "😷",
+    "category": "everyday",
+    "description": "One elective surgery under general anesthesia (healthy adult)",
+    "risk": {
+      "micromorts": 10,
+      "microlives": 0,
+      "lifeDisruption": 3,
+      "legal": 0
+    },
+    "fun": {
+      "dopamine": 0,
+      "subjectivePleasure": 0.5,
+      "flowState": 1,
+      "hedonicPurity": 5
+    },
+    "sources": [
+      {
+        "title": "Spiegelhalter — Microlives (BMJ 2012)",
+        "url": "https://www.bmj.com/content/345/bmj.e8223"
+      }
+    ]
+  },
+  {
+    "slug": "flying-commercial",
+    "name": "Commercial Flight",
+    "emoji": "✈️",
+    "category": "travel",
+    "description": "One commercial airline flight (any distance)",
+    "risk": {
+      "micromorts": 0.03,
+      "microlives": 0,
+      "lifeDisruption": 0,
+      "legal": 0
+    },
+    "fun": {
+      "dopamine": 2,
+      "subjectivePleasure": 2.5,
+      "flowState": 2,
+      "hedonicPurity": 6
+    },
+    "sources": [
+      {
+        "title": "IATA — Safety Report",
+        "url": "https://www.iata.org/en/publications/safety-report/"
+      }
+    ]
+  },
+  {
+    "slug": "psychedelic-mushrooms",
+    "name": "Psilocybin Mushrooms",
+    "emoji": "🍄",
+    "category": "substances",
+    "description": "One moderate dose (2-3.5g dried) in a safe setting",
+    "risk": {
+      "micromorts": 0.1,
+      "microlives": 0,
+      "lifeDisruption": 3,
+      "legal": 7
+    },
+    "fun": {
+      "dopamine": 4,
+      "subjectivePleasure": 4,
+      "flowState": 8,
+      "hedonicPurity": 6
+    },
+    "sources": [
+      {
+        "title": "Drug Science — LSD / Psilocybin Safety Profiles",
+        "url": "https://www.drugscience.org.uk/drug-information/psilocybin/"
+      },
+      {
+        "title": "Nutt et al. — Drug Harms in the UK (Lancet 2010)",
+        "url": "https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(10)61462-6/fulltext"
+      }
+    ]
+  },
+  {
+    "slug": "roller-coaster",
+    "name": "Riding a Roller Coaster",
+    "emoji": "🎢",
+    "category": "everyday",
+    "description": "One ride on a major theme park roller coaster",
+    "risk": {
+      "micromorts": 0.002,
+      "microlives": 0,
+      "lifeDisruption": 0,
+      "legal": 0
+    },
+    "fun": {
+      "dopamine": 6,
+      "subjectivePleasure": 4,
+      "flowState": 5,
+      "hedonicPurity": 9
+    },
+    "sources": [
+      {
+        "title": "IAAPA — Safety and Advocacy",
+        "url": "https://www.iaapa.org/safety-and-advocacy"
+      }
+    ]
+  },
+  {
+    "slug": "swimming-ocean",
+    "name": "Swimming in the Ocean",
+    "emoji": "🏊",
+    "category": "sports",
+    "description": "Open-water swimming at a beach for 30 minutes",
+    "risk": {
+      "micromorts": 1.2,
+      "microlives": 0,
+      "lifeDisruption": 0.5,
+      "legal": 0
+    },
+    "fun": {
+      "dopamine": 5,
+      "subjectivePleasure": 4,
+      "flowState": 6,
+      "hedonicPurity": 9
+    },
+    "sources": [
+      {
+        "title": "CDC — Drowning Facts",
+        "url": "https://www.cdc.gov/drowning/data-research/facts/index.html"
+      }
+    ]
+  },
+  {
+    "slug": "video-games-session",
+    "name": "Video Game Session (3 hours)",
+    "emoji": "🎮",
+    "category": "lifestyle",
+    "description": "3 hours of competitive or immersive gaming",
+    "risk": {
+      "micromorts": 0,
+      "microlives": 0.1,
+      "lifeDisruption": 1,
+      "legal": 0
+    },
+    "fun": {
+      "dopamine": 6,
+      "subjectivePleasure": 3.8,
+      "flowState": 8,
+      "hedonicPurity": 6
+    },
+    "sources": [
+      {
+        "title": "WHO — Physical Activity Guidelines",
+        "url": "https://www.who.int/news-room/fact-sheets/detail/physical-activity"
+      },
+      {
+        "title": "Flow in Games — Systematic Literature Review",
+        "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5504672/"
+      }
+    ]
+  },
+  {
+    "slug": "meditation-session",
+    "name": "Meditation (30 min)",
+    "emoji": "🧘",
+    "category": "lifestyle",
+    "description": "30 minutes of mindfulness or concentration meditation",
+    "risk": {
+      "micromorts": 0,
+      "microlives": 0,
+      "lifeDisruption": 0,
+      "legal": 0
+    },
+    "fun": {
+      "dopamine": 2,
+      "subjectivePleasure": 3.5,
+      "flowState": 7,
+      "hedonicPurity": 10
+    },
+    "sources": [
+      {
+        "title": "NCCIH — Meditation and Mindfulness",
+        "url": "https://nccih.nih.gov/health/meditation-and-mindfulness-what-you-need-to-know"
+      }
+    ]
+  },
+  {
+    "slug": "karaoke-night",
+    "name": "Karaoke Night",
+    "emoji": "🎤",
+    "category": "social",
+    "description": "Evening of karaoke singing with friends",
+    "risk": {
+      "micromorts": 0,
+      "microlives": 0,
+      "lifeDisruption": 0.5,
+      "legal": 0
+    },
+    "fun": {
+      "dopamine": 5,
+      "subjectivePleasure": 4,
+      "flowState": 6,
+      "hedonicPurity": 8
+    },
+    "sources": [
+      {
+        "title": "WHO — Social Determinants of Health",
+        "url": "https://www.who.int/health-topics/social-determinants-of-health"
+      }
+    ]
+  },
+  {
+    "slug": "eating-spicy-food",
+    "name": "Eating Extremely Spicy Food",
+    "emoji": "🌶️",
+    "category": "food-drink",
+    "description": "Eating a Carolina Reaper or comparably hot pepper challenge",
+    "risk": {
+      "micromorts": 0.1,
+      "microlives": 0,
+      "lifeDisruption": 0.5,
+      "legal": 0
+    },
+    "fun": {
+      "dopamine": 6,
+      "subjectivePleasure": 2.5,
+      "flowState": 4,
+      "hedonicPurity": 4
+    },
+    "sources": [
+      {
+        "title": "Capsaicin and Cardiovascular Effects — Case Review",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/28294610/"
+      },
+      {
+        "title": "Capsaicin-Induced Endorphin Release — Physiology",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/28294610/"
+      }
+    ]
+  },
+  {
+    "slug": "mt-everest-summit",
+    "name": "Summiting Mt. Everest",
+    "emoji": "🏔️",
+    "category": "extreme-sports",
+    "description": "Full expedition to summit Mt. Everest",
+    "risk": {
+      "micromorts": 37932,
+      "microlives": 0,
+      "lifeDisruption": 5,
+      "legal": 0
+    },
+    "fun": {
+      "dopamine": 9,
+      "subjectivePleasure": 4.5,
+      "flowState": 10,
+      "hedonicPurity": 8
+    },
+    "sources": [
+      {
+        "title": "The Himalayan Database",
+        "url": "https://www.himalayandatabase.com/"
+      }
+    ]
+  },
+  {
+    "slug": "boxing-match",
+    "name": "Boxing Match (Amateur)",
+    "emoji": "🥊",
+    "category": "sports",
+    "description": "One amateur boxing bout (3 rounds, headgear)",
+    "risk": {
+      "micromorts": 2,
+      "microlives": 0.5,
+      "lifeDisruption": 2,
+      "legal": 0
+    },
+    "fun": {
+      "dopamine": 8,
+      "subjectivePleasure": 3.5,
+      "flowState": 9,
+      "hedonicPurity": 6
+    },
+    "sources": [
+      {
+        "title": "Boxing Injuries — Systematic Review",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/17293416/"
+      }
+    ]
+  },
+  {
+    "slug": "tattoo-session",
+    "name": "Getting a Tattoo",
+    "emoji": "💉",
+    "category": "lifestyle",
+    "description": "One professional tattoo session (2-4 hours)",
+    "risk": {
+      "micromorts": 0.01,
+      "microlives": 0,
+      "lifeDisruption": 1,
+      "legal": 0
+    },
+    "fun": {
+      "dopamine": 5,
+      "subjectivePleasure": 3.2,
+      "flowState": 4,
+      "hedonicPurity": 7
+    },
+    "sources": [
+      {
+        "title": "CDC — Tattoo Safety",
+        "url": "https://www.cdc.gov/niosh/learning/safetytips/tattoo.html"
+      }
+    ]
+  },
+  {
+    "slug": "cold-water-plunge",
+    "name": "Cold Water Plunge (Ice Bath)",
+    "emoji": "🧊",
+    "category": "lifestyle",
+    "description": "2-5 minute immersion in near-freezing water",
+    "risk": {
+      "micromorts": 0.5,
+      "microlives": 0,
+      "lifeDisruption": 0,
+      "legal": 0
+    },
+    "fun": {
+      "dopamine": 6,
+      "subjectivePleasure": 2,
+      "flowState": 5,
+      "hedonicPurity": 8
+    },
+    "sources": [
+      {
+        "title": "Cold Water Immersion — Physiological Responses and Safety",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/15758012/"
+      },
+      {
+        "title": "Shevchuk — Cold Shower and Norepinephrine Release",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/17993252/"
+      }
+    ]
+  },
+  {
+    "slug": "street-food-developing-country",
+    "name": "Street Food (Developing Country)",
+    "emoji": "🍢",
+    "category": "food-drink",
+    "description": "Eating street food in a country with limited food safety regulation",
+    "risk": {
+      "micromorts": 0.1,
+      "microlives": 0,
+      "lifeDisruption": 2,
+      "legal": 0
+    },
+    "fun": {
+      "dopamine": 5,
+      "subjectivePleasure": 4.2,
+      "flowState": 4,
+      "hedonicPurity": 7
+    },
+    "sources": [
+      {
+        "title": "CDC Yellow Book — Travelers' Diarrhea",
+        "url": "https://wwwnc.cdc.gov/travel/yellowbook/2024/preparing/travelers-diarrhea"
+      }
+    ]
+  },
+  {
+    "slug": "paragliding",
+    "name": "Paragliding",
+    "emoji": "🪂",
+    "category": "extreme-sports",
+    "description": "One tandem or solo paragliding flight",
+    "risk": {
+      "micromorts": 8,
+      "microlives": 0,
+      "lifeDisruption": 1,
+      "legal": 0
+    },
+    "fun": {
+      "dopamine": 7,
+      "subjectivePleasure": 4.5,
+      "flowState": 8,
+      "hedonicPurity": 9
+    },
+    "sources": [
+      {
+        "title": "USHPA — Incident Report Database",
+        "url": "https://www.ushpa.org/page/incident-reports"
+      }
+    ]
+  },
+  {
+    "slug": "coffee-espresso",
+    "name": "Drinking an Espresso",
+    "emoji": "☕",
+    "category": "food-drink",
+    "description": "One double espresso shot",
+    "risk": {
+      "micromorts": 0,
+      "microlives": 0,
+      "lifeDisruption": 0,
+      "legal": 0
+    },
+    "fun": {
+      "dopamine": 4,
+      "subjectivePleasure": 3.5,
+      "flowState": 3,
+      "hedonicPurity": 7
+    },
+    "sources": [
+      {
+        "title": "Coffee and Health — Umbrella Review of Meta-Analyses (BMJ 2017)",
+        "url": "https://www.bmj.com/content/359/bmj.j5024"
+      }
+    ]
+  },
+  {
+    "slug": "dancing-nightclub",
+    "name": "Dancing at a Nightclub",
+    "emoji": "💃",
+    "category": "social",
+    "description": "A night out dancing at a club (sober or moderate drinking)",
+    "risk": {
+      "micromorts": 0.01,
+      "microlives": 0,
+      "lifeDisruption": 0.5,
+      "legal": 0
+    },
+    "fun": {
+      "dopamine": 6,
+      "subjectivePleasure": 4.2,
+      "flowState": 7,
+      "hedonicPurity": 8
+    },
+    "sources": [
+      {
+        "title": "WHO — Physical Activity Guidelines",
+        "url": "https://www.who.int/news-room/fact-sheets/detail/physical-activity"
+      },
+      {
+        "title": "WHO — Social Determinants of Health",
+        "url": "https://www.who.int/health-topics/social-determinants-of-health"
+      }
+    ]
+  },
+  {
+    "slug": "white-water-rafting",
+    "name": "White Water Rafting (Class III-IV)",
+    "emoji": "🚣",
+    "category": "extreme-sports",
+    "description": "One day of guided rafting on Class III-IV rapids",
+    "risk": {
+      "micromorts": 5,
+      "microlives": 0,
+      "lifeDisruption": 1,
+      "legal": 0
+    },
+    "fun": {
+      "dopamine": 7,
+      "subjectivePleasure": 4.3,
+      "flowState": 8,
+      "hedonicPurity": 9
+    },
+    "sources": [
+      {
+        "title": "American Whitewater — Accident Database",
+        "url": "https://www.americanwhitewater.org/content/Accident/view/"
+      }
+    ]
+  },
+  {
+    "slug": "sauna-session",
+    "name": "Sauna Session (20 min)",
+    "emoji": "🧖",
+    "category": "lifestyle",
+    "description": "20-minute session in a Finnish-style sauna (80-100°C)",
+    "risk": {
+      "micromorts": 0.1,
+      "microlives": 0,
+      "lifeDisruption": 0,
+      "legal": 0
+    },
+    "fun": {
+      "dopamine": 4,
+      "subjectivePleasure": 3.8,
+      "flowState": 4,
+      "hedonicPurity": 9
+    },
+    "sources": [
+      {
+        "title": "Laukkanen et al. — Sauna Bathing and Cardiovascular Events (JAMA Internal Medicine 2015)",
+        "url": "https://jamanetwork.com/journals/jamainternalmedicine/fullarticle/2130724"
+      }
+    ]
+  },
+  {
+    "slug": "online-dating-hookup",
+    "name": "Online Dating Hookup",
+    "emoji": "📱",
+    "category": "sex",
+    "description": "Meeting and having sex with a stranger from a dating app",
+    "risk": {
+      "micromorts": 0.5,
+      "microlives": 0.1,
+      "lifeDisruption": 4,
+      "legal": 0
+    },
+    "fun": {
+      "dopamine": 7,
+      "subjectivePleasure": 3.8,
+      "flowState": 5,
+      "hedonicPurity": 5
+    },
+    "sources": [
+      {
+        "title": "CDC — STI Surveillance Report",
+        "url": "https://www.cdc.gov/std/statistics/default.htm"
+      },
+      {
+        "title": "BJS — Criminal Victimization Statistics",
+        "url": "https://bjs.ojp.gov/data-collection/ncvs"
+      }
+    ]
+  },
+  {
+    "slug": "skipping-sleep-allnighter",
+    "name": "Pulling an All-Nighter",
+    "emoji": "🌙",
+    "category": "lifestyle",
+    "description": "Staying awake for 24+ hours",
+    "risk": {
+      "micromorts": 0.1,
+      "microlives": 0.5,
+      "lifeDisruption": 2,
+      "legal": 0
+    },
+    "fun": {
+      "dopamine": 3,
+      "subjectivePleasure": 1.5,
+      "flowState": 3,
+      "hedonicPurity": 2
+    },
+    "sources": [
+      {
+        "title": "Sleep Duration and All-Cause Mortality — Systematic Review",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/20469800/"
+      },
+      {
+        "title": "Williamson & Feyer — Sleep Deprivation and BAC Equivalence",
+        "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1739867/"
+      }
+    ]
+  },
+  {
+    "slug": "playing-poker-tournament",
+    "name": "Poker Tournament",
+    "emoji": "♠️",
+    "category": "gambling",
+    "description": "8-hour poker tournament with moderate buy-in",
+    "risk": {
+      "micromorts": 0,
+      "microlives": 0.1,
+      "lifeDisruption": 3,
+      "legal": 1
+    },
+    "fun": {
+      "dopamine": 6,
+      "subjectivePleasure": 3.5,
+      "flowState": 8,
+      "hedonicPurity": 5
+    },
+    "sources": [
+      {
+        "title": "NCPG — Problem Gambling Resources",
+        "url": "https://www.ncpgambling.org/help-treatment/faq/"
+      },
+      {
+        "title": "International Centre for Youth Gambling — Poker as Skill Game",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/22686170/"
+      }
+    ]
+  },
+  {
+    "slug": "lsd-trip",
+    "name": "Taking LSD",
+    "emoji": "🌀",
+    "category": "substances",
+    "description": "One moderate dose (100-150μg) in a safe setting with a sitter",
+    "risk": {
+      "micromorts": 0.01,
+      "microlives": 0,
+      "lifeDisruption": 4,
+      "legal": 8
+    },
+    "fun": {
+      "dopamine": 3,
+      "subjectivePleasure": 4.2,
+      "flowState": 9,
+      "hedonicPurity": 5
+    },
+    "sources": [
+      {
+        "title": "Drug Science — LSD / Psilocybin Safety Profiles",
+        "url": "https://www.drugscience.org.uk/drug-information/psilocybin/"
+      },
+      {
+        "title": "Nutt et al. — Drug Harms in the UK (Lancet 2010)",
+        "url": "https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(10)61462-6/fulltext"
+      }
+    ]
+  },
+  {
+    "slug": "trampoline-park",
+    "name": "Trampoline Park Session",
+    "emoji": "🤸",
+    "category": "sports",
+    "description": "One hour at a commercial trampoline park",
+    "risk": {
+      "micromorts": 0.5,
+      "microlives": 0,
+      "lifeDisruption": 1.5,
+      "legal": 0
+    },
+    "fun": {
+      "dopamine": 5,
+      "subjectivePleasure": 4,
+      "flowState": 6,
+      "hedonicPurity": 9
+    },
+    "sources": [
+      {
+        "title": "CPSC — Trampoline Safety",
+        "url": "https://www.cpsc.gov/Safety-Education/Safety-Education-Centers/Trampoline-Safety"
+      }
+    ]
+  },
+  {
+    "slug": "cooking-elaborate-meal",
+    "name": "Cooking an Elaborate Meal",
+    "emoji": "👨‍🍳",
+    "category": "food-drink",
+    "description": "Spending 2-3 hours cooking a complex multi-course meal",
+    "risk": {
+      "micromorts": 0.01,
+      "microlives": 0,
+      "lifeDisruption": 0,
+      "legal": 0
+    },
+    "fun": {
+      "dopamine": 4,
+      "subjectivePleasure": 4,
+      "flowState": 7,
+      "hedonicPurity": 9
+    },
+    "sources": [
+      {
+        "title": "NFPA — Home Cooking Fires Report",
+        "url": "https://www.nfpa.org/education-and-research/research/nfpa-research/fire-statistical-reports/home-cooking-fires"
+      }
+    ]
+  },
+  {
+    "slug": "wingsuit-flying",
+    "name": "Wingsuit Flying",
+    "emoji": "🦅",
+    "category": "extreme-sports",
+    "description": "Proximity wingsuit flight from a cliff or aircraft",
+    "risk": {
+      "micromorts": 4300,
+      "microlives": 0,
+      "lifeDisruption": 3,
+      "legal": 2
+    },
+    "fun": {
+      "dopamine": 10,
+      "subjectivePleasure": 4.9,
+      "flowState": 10,
+      "hedonicPurity": 9
+    },
+    "sources": [
+      {
+        "title": "Wingsuit BASE Jumping — Incidence and Severity of Injuries",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/22026848/"
+      }
+    ]
+  },
+  {
+    "slug": "free-solo-climbing",
+    "name": "Free Solo Rock Climbing",
+    "emoji": "🧗‍♂️",
+    "category": "extreme-sports",
+    "description": "Climbing multi-pitch rock routes without ropes or protection",
+    "risk": {
+      "micromorts": 1500,
+      "microlives": 0,
+      "lifeDisruption": 2,
+      "legal": 0
+    },
+    "fun": {
+      "dopamine": 9,
+      "subjectivePleasure": 4.7,
+      "flowState": 10,
+      "hedonicPurity": 9
+    },
+    "sources": [
+      {
+        "title": "AAC — Accidents in North American Climbing",
+        "url": "https://publications.americanalpineclub.org/search/accidents"
+      }
+    ]
+  },
+  {
+    "slug": "bull-running",
+    "name": "Running of the Bulls",
+    "emoji": "🐂",
+    "category": "extreme-sports",
+    "description": "Running with bulls in Pamplona or similar event",
+    "risk": {
+      "micromorts": 30,
+      "microlives": 0,
+      "lifeDisruption": 3,
+      "legal": 0
+    },
+    "fun": {
+      "dopamine": 9,
+      "subjectivePleasure": 4,
+      "flowState": 8,
+      "hedonicPurity": 8
+    },
+    "sources": [
+      {
+        "title": "Pamplona — San Fermín Bull Run Statistics",
+        "url": "https://sanfermin.pamplona.es/en/"
+      }
+    ]
+  },
+  {
+    "slug": "cave-diving",
+    "name": "Cave Diving",
+    "emoji": "🕳️",
+    "category": "extreme-sports",
+    "description": "Scuba diving in underwater cave systems",
+    "risk": {
+      "micromorts": 50,
+      "microlives": 0,
+      "lifeDisruption": 2,
+      "legal": 0
+    },
+    "fun": {
+      "dopamine": 7,
+      "subjectivePleasure": 4.5,
+      "flowState": 9,
+      "hedonicPurity": 9
+    },
+    "sources": [
+      {
+        "title": "NSS-CDS — Cave Diving Accident Analysis",
+        "url": "https://nsscds.org/accident-analysis/"
+      }
+    ]
+  },
+  {
+    "slug": "heli-skiing",
+    "name": "Heli-Skiing",
+    "emoji": "🚁",
+    "category": "extreme-sports",
+    "description": "Helicopter-accessed backcountry skiing with avalanche risk",
+    "risk": {
+      "micromorts": 15,
+      "microlives": 0,
+      "lifeDisruption": 2,
+      "legal": 0
+    },
+    "fun": {
+      "dopamine": 8,
+      "subjectivePleasure": 4.7,
+      "flowState": 9,
+      "hedonicPurity": 9
+    },
+    "sources": [
+      {
+        "title": "Avalanche Canada — Fatal Avalanche Incidents Database",
+        "url": "https://incidents.avalanche.ca/"
+      }
+    ]
+  },
+  {
+    "slug": "mountain-biking",
+    "name": "Mountain Biking",
+    "emoji": "🚵",
+    "category": "sports",
+    "description": "Trail or downhill mountain biking on technical terrain",
+    "risk": {
+      "micromorts": 3,
+      "microlives": 0,
+      "lifeDisruption": 2,
+      "legal": 0
+    },
+    "fun": {
+      "dopamine": 7,
+      "subjectivePleasure": 4.3,
+      "flowState": 9,
+      "hedonicPurity": 9
+    },
+    "sources": [
+      {
+        "title": "Mountain Biking Injury Epidemiology — Updated Review",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/17293416/"
+      }
+    ]
+  },
+  {
+    "slug": "pickup-basketball",
+    "name": "Pickup Basketball",
+    "emoji": "🏀",
+    "category": "sports",
+    "description": "One hour of recreational basketball at a gym or park",
+    "risk": {
+      "micromorts": 0.3,
+      "microlives": 0,
+      "lifeDisruption": 1,
+      "legal": 0
+    },
+    "fun": {
+      "dopamine": 6,
+      "subjectivePleasure": 4,
+      "flowState": 7,
+      "hedonicPurity": 8
+    },
+    "sources": [
+      {
+        "title": "Basketball Injury Incidence — Systematic Review",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/29611022/"
+      }
+    ]
+  },
+  {
+    "slug": "soccer-match",
+    "name": "Playing a Soccer Match",
+    "emoji": "⚽",
+    "category": "sports",
+    "description": "One 90-minute recreational or amateur soccer match",
+    "risk": {
+      "micromorts": 0.2,
+      "microlives": 0,
+      "lifeDisruption": 1,
+      "legal": 0
+    },
+    "fun": {
+      "dopamine": 6,
+      "subjectivePleasure": 4,
+      "flowState": 8,
+      "hedonicPurity": 8
+    },
+    "sources": [
+      {
+        "title": "FIFA — Football Medicine and Anti-Doping",
+        "url": "https://www.fifa.com/football-development/medical"
+      }
+    ]
+  },
+  {
+    "slug": "golf-round",
+    "name": "Playing a Round of Golf",
+    "emoji": "⛳",
+    "category": "sports",
+    "description": "18 holes of golf (4-5 hours)",
+    "risk": {
+      "micromorts": 0.05,
+      "microlives": 0,
+      "lifeDisruption": 0,
+      "legal": 0
+    },
+    "fun": {
+      "dopamine": 4,
+      "subjectivePleasure": 3.8,
+      "flowState": 6,
+      "hedonicPurity": 8
+    },
+    "sources": [
+      {
+        "title": "NWS — Lightning Fatalities and Safety",
+        "url": "https://www.weather.gov/safety/lightning-fatalities"
+      }
+    ]
+  },
+  {
+    "slug": "weightlifting-session",
+    "name": "Weightlifting Session",
+    "emoji": "🏋️",
+    "category": "sports",
+    "description": "One hour of heavy barbell training (squats, deadlifts, bench)",
+    "risk": {
+      "micromorts": 0.1,
+      "microlives": 0,
+      "lifeDisruption": 1,
+      "legal": 0
+    },
+    "fun": {
+      "dopamine": 6,
+      "subjectivePleasure": 3.5,
+      "flowState": 7,
+      "hedonicPurity": 8
+    },
+    "sources": [
+      {
+        "title": "Injuries in Weightlifting and Powerlifting — Systematic Review (BMJ 2024)",
+        "url": "https://bmjopensem.bmj.com/content/10/4/e001884"
+      }
+    ]
+  },
+  {
+    "slug": "tennis-match",
+    "name": "Playing Tennis",
+    "emoji": "🎾",
+    "category": "sports",
+    "description": "One hour of singles tennis",
+    "risk": {
+      "micromorts": 0.1,
+      "microlives": 0,
+      "lifeDisruption": 0.5,
+      "legal": 0
+    },
+    "fun": {
+      "dopamine": 5,
+      "subjectivePleasure": 4,
+      "flowState": 7,
+      "hedonicPurity": 9
+    },
+    "sources": [
+      {
+        "title": "Tennis Injuries — Epidemiological Overview",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/17293416/"
+      }
+    ]
+  },
+  {
+    "slug": "vaping-nicotine",
+    "name": "Vaping (Nicotine)",
+    "emoji": "💨",
+    "category": "substances",
+    "description": "One vaping session with nicotine e-liquid",
+    "risk": {
+      "micromorts": 0.005,
+      "microlives": 0.15,
+      "defaultFrequency": 3650,
+      "lifeDisruption": 3,
+      "legal": 0
+    },
+    "fun": {
+      "dopamine": 5,
+      "subjectivePleasure": 2.8,
+      "flowState": 2,
+      "hedonicPurity": 3
+    },
+    "sources": [
+      {
+        "title": "E-cigarette vs Tobacco Disease Risk Comparison",
+        "url": "https://link.springer.com/article/10.1186/s12954-025-01230-y"
+      }
+    ]
+  },
+  {
+    "slug": "ketamine-recreational",
+    "name": "Ketamine (Recreational Dose)",
+    "emoji": "🕳️",
+    "category": "substances",
+    "description": "One recreational dose of ketamine (insufflated or IM)",
+    "risk": {
+      "micromorts": 3,
+      "microlives": 0.3,
+      "lifeDisruption": 4,
+      "legal": 7
+    },
+    "fun": {
+      "dopamine": 5,
+      "subjectivePleasure": 4,
+      "flowState": 6,
+      "hedonicPurity": 4
+    },
+    "sources": [
+      {
+        "title": "ONS — Deaths Related to Drug Poisoning in England and Wales",
+        "url": "https://www.ons.gov.uk/peoplepopulationandcommunity/birthsdeathsandmarriages/deaths/bulletins/deathsrelatedtodrugpoisoninginenglandandwales/latest"
+      },
+      {
+        "title": "Nutt et al. — Drug Harms in the UK (Lancet 2010)",
+        "url": "https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(10)61462-6/fulltext"
+      }
+    ]
+  },
+  {
+    "slug": "nitrous-oxide",
+    "name": "Nitrous Oxide (Whippets)",
+    "emoji": "🎈",
+    "category": "substances",
+    "description": "Inhaling nitrous oxide from a whipped cream charger",
+    "risk": {
+      "micromorts": 0.5,
+      "microlives": 0.1,
+      "lifeDisruption": 2,
+      "legal": 3
+    },
+    "fun": {
+      "dopamine": 5,
+      "subjectivePleasure": 3.5,
+      "flowState": 3,
+      "hedonicPurity": 4
+    },
+    "sources": [
+      {
+        "title": "ONS — Deaths Related to Volatile Substances in England and Wales",
+        "url": "https://www.ons.gov.uk/peoplepopulationandcommunity/birthsdeathsandmarriages/deaths/articles/deathsrelatedtovolatilesubstancesheliumandnitrogeninenglandandwales/2001to2020registrations"
+      },
+      {
+        "title": "Vitamin B12 Status in Recreational Nitrous Oxide Users — Systematic Review",
+        "url": "https://www.mdpi.com/2076-3921/12/6/1191"
+      }
+    ]
+  },
+  {
+    "slug": "adderall-recreational",
+    "name": "Adderall (Non-Prescribed)",
+    "emoji": "💊",
+    "category": "substances",
+    "description": "One recreational or study-aid dose of amphetamine (20-30mg)",
+    "risk": {
+      "micromorts": 0.5,
+      "microlives": 0.2,
+      "lifeDisruption": 4,
+      "legal": 6
+    },
+    "fun": {
+      "dopamine": 7,
+      "subjectivePleasure": 3.5,
+      "flowState": 8,
+      "hedonicPurity": 3
+    },
+    "sources": [
+      {
+        "title": "ADHD Medication Use and Risk of Cardiovascular Disease (JAMA Psychiatry)",
+        "url": "https://jamanetwork.com/journals/jamapsychiatry/fullarticle/2811812"
+      },
+      {
+        "title": "DEA — Drug Scheduling",
+        "url": "https://www.dea.gov/drug-information/drug-scheduling"
+      }
+    ]
+  },
+  {
+    "slug": "ayahuasca-ceremony",
+    "name": "Ayahuasca Ceremony",
+    "emoji": "🍵",
+    "category": "substances",
+    "description": "One guided ayahuasca ceremony with experienced facilitators",
+    "risk": {
+      "micromorts": 1,
+      "microlives": 0,
+      "lifeDisruption": 4,
+      "legal": 6
+    },
+    "fun": {
+      "dopamine": 3,
+      "subjectivePleasure": 3.5,
+      "flowState": 9,
+      "hedonicPurity": 5
+    },
+    "sources": [
+      {
+        "title": "Therapeutic Potentials of Ayahuasca — Systematic Review",
+        "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6343205/"
+      },
+      {
+        "title": "Ayahuasca — MAOI Interactions and Safety Review",
+        "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6343205/"
+      }
+    ]
+  },
+  {
+    "slug": "fine-dining-tasting-menu",
+    "name": "Fine Dining Tasting Menu",
+    "emoji": "🍽️",
+    "category": "food-drink",
+    "description": "12-course tasting menu at a Michelin-starred restaurant",
+    "risk": {
+      "micromorts": 0.001,
+      "microlives": 0.05,
+      "lifeDisruption": 0,
+      "legal": 0
+    },
+    "fun": {
+      "dopamine": 5,
+      "subjectivePleasure": 4.5,
+      "flowState": 5,
+      "hedonicPurity": 9
+    },
+    "sources": [
+      {
+        "title": "WHO — Healthy Diet Guidelines",
+        "url": "https://www.who.int/news-room/fact-sheets/detail/healthy-diet"
+      }
+    ]
+  },
+  {
+    "slug": "raw-oysters",
+    "name": "Eating Raw Oysters",
+    "emoji": "🦪",
+    "category": "food-drink",
+    "description": "A dozen raw oysters from a reputable source",
+    "risk": {
+      "micromorts": 0.1,
+      "microlives": 0,
+      "lifeDisruption": 0.5,
+      "legal": 0
+    },
+    "fun": {
+      "dopamine": 4,
+      "subjectivePleasure": 3.8,
+      "flowState": 3,
+      "hedonicPurity": 8
+    },
+    "sources": [
+      {
+        "title": "CDC — Vibrio vulnificus Infections",
+        "url": "https://www.cdc.gov/vibrio/index.html"
+      }
+    ]
+  },
+  {
+    "slug": "energy-drink",
+    "name": "Drinking an Energy Drink",
+    "emoji": "⚡",
+    "category": "food-drink",
+    "description": "One 16oz energy drink (Monster, Red Bull, etc.)",
+    "risk": {
+      "micromorts": 0.01,
+      "microlives": 0.05,
+      "lifeDisruption": 0.5,
+      "legal": 0
+    },
+    "fun": {
+      "dopamine": 4,
+      "subjectivePleasure": 2.5,
+      "flowState": 3,
+      "hedonicPurity": 4
+    },
+    "sources": [
+      {
+        "title": "FDA Adverse Event Reporting System (FAERS)",
+        "url": "https://www.fda.gov/drugs/questions-and-answers-fdas-adverse-event-reporting-system-faers/fda-adverse-event-reporting-system-faers-public-dashboard"
+      }
+    ]
+  },
+  {
+    "slug": "fast-food-meal",
+    "name": "Eating a Fast Food Meal",
+    "emoji": "🍔",
+    "category": "food-drink",
+    "description": "A typical fast food combo (burger, fries, soda)",
+    "risk": {
+      "micromorts": 0,
+      "microlives": 0.1,
+      "lifeDisruption": 0,
+      "legal": 0
+    },
+    "fun": {
+      "dopamine": 5,
+      "subjectivePleasure": 3.5,
+      "flowState": 2,
+      "hedonicPurity": 4
+    },
+    "sources": [
+      {
+        "title": "Ultra-Processed Food and Health Outcomes — Systematic Review (BMJ 2024)",
+        "url": "https://www.bmj.com/content/384/bmj-2023-077310"
+      }
+    ]
+  },
+  {
+    "slug": "foraging-wild-mushrooms",
+    "name": "Foraging Wild Mushrooms",
+    "emoji": "🍄",
+    "category": "food-drink",
+    "description": "Picking and eating wild mushrooms with moderate foraging knowledge",
+    "risk": {
+      "micromorts": 5,
+      "microlives": 0,
+      "lifeDisruption": 2,
+      "legal": 0
+    },
+    "fun": {
+      "dopamine": 4,
+      "subjectivePleasure": 4,
+      "flowState": 7,
+      "hedonicPurity": 8
+    },
+    "sources": [
+      {
+        "title": "America's Poison Centers — Annual Reports",
+        "url": "https://www.aapcc.org/annual-reports"
+      }
+    ]
+  },
+  {
+    "slug": "wine-tasting",
+    "name": "Wine Tasting Session",
+    "emoji": "🍷",
+    "category": "food-drink",
+    "description": "Tasting 6-8 wines at a vineyard or tasting room",
+    "risk": {
+      "micromorts": 0.01,
+      "microlives": 0.3,
+      "lifeDisruption": 0.5,
+      "legal": 0
+    },
+    "fun": {
+      "dopamine": 4,
+      "subjectivePleasure": 4,
+      "flowState": 5,
+      "hedonicPurity": 7
+    },
+    "sources": [
+      {
+        "title": "NIAAA — What Is a Standard Drink?",
+        "url": "https://www.niaaa.nih.gov/alcohols-effects-health/overview-alcohol-consumption/what-standard-drink"
+      }
+    ]
+  },
+  {
+    "slug": "sex-oral",
+    "name": "Oral Sex",
+    "emoji": "💋",
+    "category": "sex",
+    "description": "Giving or receiving oral sex with a known partner",
+    "risk": {
+      "micromorts": 0.0001,
+      "microlives": 0,
+      "lifeDisruption": 0.3,
+      "legal": 0
+    },
+    "fun": {
+      "dopamine": 7,
+      "subjectivePleasure": 4,
+      "flowState": 5,
+      "hedonicPurity": 8
+    },
+    "sources": [
+      {
+        "title": "CDC — STI Risk and Oral Sex",
+        "url": "https://www.cdc.gov/sti/about/about-oral-sex-and-stis.html"
+      }
+    ]
+  },
+  {
+    "slug": "sex-one-night-stand",
+    "name": "One-Night Stand (Protected)",
+    "emoji": "🌙",
+    "category": "sex",
+    "description": "Protected casual sex with a new partner",
+    "risk": {
+      "micromorts": 0.01,
+      "microlives": 0,
+      "lifeDisruption": 2,
+      "legal": 0
+    },
+    "fun": {
+      "dopamine": 8,
+      "subjectivePleasure": 4,
+      "flowState": 5,
+      "hedonicPurity": 6
+    },
+    "sources": [
+      {
+        "title": "CDC — Condom Effectiveness for STI Prevention",
+        "url": "https://www.cdc.gov/condomuse/effectiveness.html"
+      }
+    ]
+  },
+  {
+    "slug": "sexting",
+    "name": "Sexting",
+    "emoji": "📱",
+    "category": "sex",
+    "description": "Sending/receiving explicit messages or images with a partner",
+    "risk": {
+      "micromorts": 0,
+      "microlives": 0,
+      "lifeDisruption": 4,
+      "legal": 1
+    },
+    "fun": {
+      "dopamine": 6,
+      "subjectivePleasure": 3.5,
+      "flowState": 4,
+      "hedonicPurity": 5
+    },
+    "sources": [
+      {
+        "title": "Nonconsensual Sharing and Sextortion Among U.S. Teens",
+        "url": "https://www.jahonline.org/article/S1054-139X(18)30216-5/fulltext"
+      }
+    ]
+  },
+  {
+    "slug": "bdsm-session",
+    "name": "BDSM Session (Experienced)",
+    "emoji": "⛓️",
+    "category": "sex",
+    "description": "Consensual BDSM play with experienced partners and safety protocols",
+    "risk": {
+      "micromorts": 0.1,
+      "microlives": 0,
+      "lifeDisruption": 2,
+      "legal": 0
+    },
+    "fun": {
+      "dopamine": 8,
+      "subjectivePleasure": 4.2,
+      "flowState": 7,
+      "hedonicPurity": 7
+    },
+    "sources": [
+      {
+        "title": "Health and Safety in BDSM — Survey of Practitioners",
+        "url": "https://www.tandfonline.com/doi/full/10.1080/00224499.2019.1669133"
+      },
+      {
+        "title": "Consent and Negotiated Safety in the BDSM Community",
+        "url": "https://link.springer.com/article/10.1007/s10508-020-01720-x"
+      }
+    ]
+  },
+  {
+    "slug": "tantric-sex",
+    "name": "Tantric Sex Session",
+    "emoji": "🕉️",
+    "category": "sex",
+    "description": "Extended mindful sexual practice (1-3 hours)",
+    "risk": {
+      "micromorts": 0.001,
+      "microlives": 0,
+      "lifeDisruption": 0.3,
+      "legal": 0
+    },
+    "fun": {
+      "dopamine": 6,
+      "subjectivePleasure": 4.5,
+      "flowState": 8,
+      "hedonicPurity": 9
+    },
+    "sources": [
+      {
+        "title": "Sexual Activity and Cardiovascular Risk (AHA)",
+        "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5028242/"
+      }
+    ]
+  },
+  {
+    "slug": "taking-shower",
+    "name": "Taking a Shower",
+    "emoji": "🚿",
+    "category": "everyday",
+    "description": "A normal 10-minute shower",
+    "risk": {
+      "micromorts": 0.01,
+      "microlives": 0,
+      "lifeDisruption": 0,
+      "legal": 0
+    },
+    "fun": {
+      "dopamine": 3,
+      "subjectivePleasure": 3.5,
+      "flowState": 2,
+      "hedonicPurity": 8
+    },
+    "sources": [
+      {
+        "title": "CDC — Nonfatal Bathroom Injuries Among Persons Aged ≥15 Years",
+        "url": "https://www.cdc.gov/mmwr/preview/mmwrhtml/mm6022a1.htm"
+      }
+    ]
+  },
+  {
+    "slug": "crossing-street",
+    "name": "Crossing a Busy Street",
+    "emoji": "🚦",
+    "category": "everyday",
+    "description": "One pedestrian crossing at a busy urban intersection",
+    "risk": {
+      "micromorts": 0.01,
+      "microlives": 0,
+      "lifeDisruption": 0,
+      "legal": 0
+    },
+    "fun": {
+      "dopamine": 0,
+      "subjectivePleasure": 1,
+      "flowState": 1,
+      "hedonicPurity": 5
+    },
+    "sources": [
+      {
+        "title": "NHTSA — Pedestrian Safety",
+        "url": "https://www.nhtsa.gov/road-safety/pedestrian-safety"
+      }
+    ]
+  },
+  {
+    "slug": "home-renovation-diy",
+    "name": "DIY Home Renovation (1 day)",
+    "emoji": "🔨",
+    "category": "everyday",
+    "description": "A full day of home renovation (electrical, plumbing, or structural)",
+    "risk": {
+      "micromorts": 1.5,
+      "microlives": 0,
+      "lifeDisruption": 1,
+      "legal": 0
+    },
+    "fun": {
+      "dopamine": 5,
+      "subjectivePleasure": 3.5,
+      "flowState": 7,
+      "hedonicPurity": 8
+    },
+    "sources": [
+      {
+        "title": "CDC — Ladder-Related Injuries in US Emergency Departments",
+        "url": "https://www.cdc.gov/mmwr/preview/mmwrhtml/mm6316a1.htm"
+      }
+    ]
+  },
+  {
+    "slug": "sunbathing-2-hours",
+    "name": "Sunbathing (2 Hours, No Sunscreen)",
+    "emoji": "☀️",
+    "category": "everyday",
+    "description": "Two hours of direct sun exposure without SPF",
+    "risk": {
+      "micromorts": 0.001,
+      "microlives": 0.2,
+      "lifeDisruption": 0.5,
+      "legal": 0
+    },
+    "fun": {
+      "dopamine": 4,
+      "subjectivePleasure": 3.8,
+      "flowState": 3,
+      "hedonicPurity": 7
+    },
+    "sources": [
+      {
+        "title": "NCI — Skin Cancer Prevention",
+        "url": "https://www.cancer.gov/types/skin/hp/skin-prevention-pdq"
+      },
+      {
+        "title": "NCI — Vitamin D and Cancer Prevention",
+        "url": "https://www.cancer.gov/about-cancer/causes-prevention/risk/diet/vitamin-d-fact-sheet"
+      }
+    ]
+  },
+  {
+    "slug": "sleeping-8-hours",
+    "name": "Sleeping 8 Hours",
+    "emoji": "😴",
+    "category": "everyday",
+    "description": "A full 8-hour night of uninterrupted sleep",
+    "risk": {
+      "micromorts": 0,
+      "microlives": 0,
+      "lifeDisruption": 0,
+      "legal": 0
+    },
+    "fun": {
+      "dopamine": 3,
+      "subjectivePleasure": 4,
+      "flowState": 1,
+      "hedonicPurity": 10
+    },
+    "sources": [
+      {
+        "title": "NIH — Brain Basics: Understanding Sleep",
+        "url": "https://www.ninds.nih.gov/health-information/public-education/brain-basics/brain-basics-understanding-sleep"
+      }
+    ]
+  },
+  {
+    "slug": "commuting-subway",
+    "name": "Commuting by Subway",
+    "emoji": "🚇",
+    "category": "everyday",
+    "description": "One 30-minute subway commute in a major city",
+    "risk": {
+      "micromorts": 0.003,
+      "microlives": 0,
+      "lifeDisruption": 0,
+      "legal": 0
+    },
+    "fun": {
+      "dopamine": 1,
+      "subjectivePleasure": 1.5,
+      "flowState": 2,
+      "hedonicPurity": 5
+    },
+    "sources": [
+      {
+        "title": "FTA — National Transit Database Safety & Security",
+        "url": "https://www.transit.dot.gov/ntd/data-product/safety-and-security-time-series-data"
+      }
+    ]
+  },
+  {
+    "slug": "backpacking-southeast-asia",
+    "name": "Backpacking Southeast Asia (1 month)",
+    "emoji": "🎒",
+    "category": "travel",
+    "description": "One month of budget backpacking through SE Asia",
+    "risk": {
+      "micromorts": 30,
+      "microlives": 0.5,
+      "lifeDisruption": 2,
+      "legal": 1
+    },
+    "fun": {
+      "dopamine": 7,
+      "subjectivePleasure": 4.5,
+      "flowState": 8,
+      "hedonicPurity": 8
+    },
+    "sources": [
+      {
+        "title": "WHO — Road Traffic Injuries",
+        "url": "https://www.who.int/news-room/fact-sheets/detail/road-traffic-injuries"
+      }
+    ]
+  },
+  {
+    "slug": "road-trip-cross-country",
+    "name": "Cross-Country Road Trip (3000 mi)",
+    "emoji": "🛣️",
+    "category": "travel",
+    "description": "A 3000-mile road trip across the US",
+    "risk": {
+      "micromorts": 12,
+      "microlives": 0,
+      "lifeDisruption": 1,
+      "legal": 0
+    },
+    "fun": {
+      "dopamine": 5,
+      "subjectivePleasure": 4.2,
+      "flowState": 6,
+      "hedonicPurity": 8
+    },
+    "sources": [
+      {
+        "title": "NHTSA — Traffic Safety Data",
+        "url": "https://www.nhtsa.gov/data"
+      }
+    ]
+  },
+  {
+    "slug": "hot-air-balloon-ride",
+    "name": "Hot Air Balloon Ride",
+    "emoji": "🎈",
+    "category": "travel",
+    "description": "One commercial hot air balloon flight",
+    "risk": {
+      "micromorts": 1,
+      "microlives": 0,
+      "lifeDisruption": 0,
+      "legal": 0
+    },
+    "fun": {
+      "dopamine": 5,
+      "subjectivePleasure": 4.3,
+      "flowState": 5,
+      "hedonicPurity": 9
+    },
+    "sources": [
+      {
+        "title": "NTSB — Aviation Accident Database",
+        "url": "https://www.ntsb.gov/Pages/AviationQuery.aspx"
+      }
+    ]
+  },
+  {
+    "slug": "sailing-offshore",
+    "name": "Offshore Sailing (multi-day)",
+    "emoji": "⛵",
+    "category": "travel",
+    "description": "Multi-day offshore sailing passage (100+ miles from shore)",
+    "risk": {
+      "micromorts": 10,
+      "microlives": 0,
+      "lifeDisruption": 2,
+      "legal": 0
+    },
+    "fun": {
+      "dopamine": 6,
+      "subjectivePleasure": 4.2,
+      "flowState": 8,
+      "hedonicPurity": 9
+    },
+    "sources": [
+      {
+        "title": "USCG — Recreational Boating Statistics",
+        "url": "https://uscgboating.org/library/accident-statistics/Recreational-Boating-Statistics-2024.pdf"
+      }
+    ]
+  },
+  {
+    "slug": "train-travel-europe",
+    "name": "European Train Journey",
+    "emoji": "🚂",
+    "category": "travel",
+    "description": "A scenic day-long train journey across Europe",
+    "risk": {
+      "micromorts": 0.01,
+      "microlives": 0,
+      "lifeDisruption": 0,
+      "legal": 0
+    },
+    "fun": {
+      "dopamine": 3,
+      "subjectivePleasure": 4,
+      "flowState": 5,
+      "hedonicPurity": 9
+    },
+    "sources": [
+      {
+        "title": "ERA — Report on Railway Safety in the EU",
+        "url": "https://www.era.europa.eu/content/report-railway-safety-and-interoperability-eu-2024"
+      }
+    ]
+  },
+  {
+    "slug": "hitchhiking",
+    "name": "Hitchhiking (100 miles)",
+    "emoji": "👍",
+    "category": "travel",
+    "description": "Hitchhiking 100 miles with strangers",
+    "risk": {
+      "micromorts": 5,
+      "microlives": 0,
+      "lifeDisruption": 3,
+      "legal": 2
+    },
+    "fun": {
+      "dopamine": 5,
+      "subjectivePleasure": 3.5,
+      "flowState": 5,
+      "hedonicPurity": 7
+    },
+    "sources": [
+      {
+        "title": "DOJ — California Crimes and Accidents Associated with Hitchhiking",
+        "url": "https://www.ojp.gov/ncjrs/virtual-library/abstracts/california-crimes-and-accidents-associated-hitchhiking"
+      }
+    ]
+  },
+  {
+    "slug": "sports-betting",
+    "name": "Sports Betting ($100)",
+    "emoji": "🏈",
+    "category": "gambling",
+    "description": "Placing $100 in sports bets over a weekend",
+    "risk": {
+      "micromorts": 0,
+      "microlives": 0,
+      "lifeDisruption": 3,
+      "legal": 1
+    },
+    "fun": {
+      "dopamine": 6,
+      "subjectivePleasure": 3.5,
+      "flowState": 5,
+      "hedonicPurity": 4
+    },
+    "sources": [
+      {
+        "title": "UK Gambling Commission — Gambling Survey Annual Report",
+        "url": "https://www.gamblingcommission.gov.uk/statistics-and-research/publication/gambling-survey-for-great-britain-annual-report-2024"
+      }
+    ]
+  },
+  {
+    "slug": "lottery-ticket",
+    "name": "Buying a Lottery Ticket",
+    "emoji": "🎟️",
+    "category": "gambling",
+    "description": "One lottery ticket purchase",
+    "risk": {
+      "micromorts": 0,
+      "microlives": 0,
+      "lifeDisruption": 0.5,
+      "legal": 0
+    },
+    "fun": {
+      "dopamine": 4,
+      "subjectivePleasure": 2.5,
+      "flowState": 2,
+      "hedonicPurity": 5
+    },
+    "sources": [
+      {
+        "title": "North American State and Provincial Lotteries",
+        "url": "https://www.naspl.org/"
+      },
+      {
+        "title": "Anticipatory Dopamine and Risk-Taking — Neural Basis",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/16723537/"
+      }
+    ]
+  },
+  {
+    "slug": "crypto-day-trading",
+    "name": "Crypto Day Trading",
+    "emoji": "📈",
+    "category": "gambling",
+    "description": "One day of active cryptocurrency trading ($1000+ at risk)",
+    "risk": {
+      "micromorts": 0,
+      "microlives": 0.1,
+      "lifeDisruption": 6,
+      "legal": 1
+    },
+    "fun": {
+      "dopamine": 8,
+      "subjectivePleasure": 3,
+      "flowState": 7,
+      "hedonicPurity": 2
+    },
+    "sources": [
+      {
+        "title": "FINRA — Day Trading: Your Dollars at Risk",
+        "url": "https://www.finra.org/investors/investing/investment-products/stocks/day-trading"
+      },
+      {
+        "title": "Financial Stress and Cortisol — Psychoneuroendocrinology",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/8251003/"
+      }
+    ]
+  },
+  {
+    "slug": "high-stakes-poker",
+    "name": "High Stakes Poker ($10K+ buy-in)",
+    "emoji": "💰",
+    "category": "gambling",
+    "description": "Playing poker with $10,000+ at stake",
+    "risk": {
+      "micromorts": 0,
+      "microlives": 0.2,
+      "lifeDisruption": 7,
+      "legal": 1
+    },
+    "fun": {
+      "dopamine": 8,
+      "subjectivePleasure": 4,
+      "flowState": 9,
+      "hedonicPurity": 4
+    },
+    "sources": [
+      {
+        "title": "Gambler's Ruin Problem — Statistical Analysis",
+        "url": "https://en.wikipedia.org/wiki/Gambler%27s_ruin"
+      }
+    ]
+  },
+  {
+    "slug": "stand-up-comedy-open-mic",
+    "name": "Stand-Up Comedy Open Mic",
+    "emoji": "🎭",
+    "category": "social",
+    "description": "Performing 5 minutes of stand-up comedy at an open mic",
+    "risk": {
+      "micromorts": 0,
+      "microlives": 0,
+      "lifeDisruption": 1,
+      "legal": 0
+    },
+    "fun": {
+      "dopamine": 7,
+      "subjectivePleasure": 3.5,
+      "flowState": 8,
+      "hedonicPurity": 6
+    },
+    "sources": [
+      {
+        "title": "APA — Performance Anxiety",
+        "url": "https://www.apa.org/topics/anxiety"
+      }
+    ]
+  },
+  {
+    "slug": "house-party",
+    "name": "House Party",
+    "emoji": "🎉",
+    "category": "social",
+    "description": "Attending a house party (moderate drinking, socializing)",
+    "risk": {
+      "micromorts": 0.05,
+      "microlives": 0.2,
+      "lifeDisruption": 1,
+      "legal": 0
+    },
+    "fun": {
+      "dopamine": 6,
+      "subjectivePleasure": 4,
+      "flowState": 5,
+      "hedonicPurity": 7
+    },
+    "sources": [
+      {
+        "title": "CDC — Alcohol and Public Health",
+        "url": "https://www.cdc.gov/alcohol/index.html"
+      },
+      {
+        "title": "Social Capital Project — Joint Economic Committee",
+        "url": "https://www.jec.senate.gov/public/index.cfm/social-capital-project"
+      }
+    ]
+  },
+  {
+    "slug": "public-speaking",
+    "name": "Public Speaking (100+ people)",
+    "emoji": "🎙️",
+    "category": "social",
+    "description": "Giving a presentation to 100+ people",
+    "risk": {
+      "micromorts": 0,
+      "microlives": 0,
+      "lifeDisruption": 1.5,
+      "legal": 0
+    },
+    "fun": {
+      "dopamine": 6,
+      "subjectivePleasure": 3,
+      "flowState": 8,
+      "hedonicPurity": 6
+    },
+    "sources": [
+      {
+        "title": "Trier Social Stress Test — Psychobiological Stress Responses",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/8251003/"
+      }
+    ]
+  },
+  {
+    "slug": "music-festival-weekend",
+    "name": "Music Festival Weekend",
+    "emoji": "🎵",
+    "category": "social",
+    "description": "3-day outdoor music festival (camping, crowd)",
+    "risk": {
+      "micromorts": 2,
+      "microlives": 0.5,
+      "lifeDisruption": 2,
+      "legal": 1
+    },
+    "fun": {
+      "dopamine": 8,
+      "subjectivePleasure": 4.5,
+      "flowState": 7,
+      "hedonicPurity": 7
+    },
+    "sources": [
+      {
+        "title": "Music Festival Health and Safety — Systematic Review",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/30825279/"
+      },
+      {
+        "title": "CDC — Sleep and Sleep Disorders",
+        "url": "https://www.cdc.gov/sleep/index.html"
+      }
+    ]
+  },
+  {
+    "slug": "board-game-night",
+    "name": "Board Game Night",
+    "emoji": "🎲",
+    "category": "social",
+    "description": "3-4 hours of board games with friends",
+    "risk": {
+      "micromorts": 0,
+      "microlives": 0,
+      "lifeDisruption": 0,
+      "legal": 0
+    },
+    "fun": {
+      "dopamine": 4,
+      "subjectivePleasure": 4,
+      "flowState": 7,
+      "hedonicPurity": 9
+    },
+    "sources": [
+      {
+        "title": "WHO — Physical Activity and Sedentary Behaviour",
+        "url": "https://www.who.int/news-room/fact-sheets/detail/physical-activity"
+      }
+    ]
+  },
+  {
+    "slug": "first-date",
+    "name": "Going on a First Date",
+    "emoji": "🌹",
+    "category": "social",
+    "description": "Meeting someone for the first time on a date",
+    "risk": {
+      "micromorts": 0,
+      "microlives": 0,
+      "lifeDisruption": 1,
+      "legal": 0
+    },
+    "fun": {
+      "dopamine": 6,
+      "subjectivePleasure": 3.5,
+      "flowState": 5,
+      "hedonicPurity": 6
+    },
+    "sources": [
+      {
+        "title": "APA — Performance Anxiety",
+        "url": "https://www.apa.org/topics/anxiety"
+      },
+      {
+        "title": "Novelty and Dopamine — Neuroscience of Exploration",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/16723537/"
+      }
+    ]
+  },
+  {
+    "slug": "skydiving-indoor",
+    "name": "Indoor Skydiving",
+    "emoji": "💨",
+    "category": "lifestyle",
+    "description": "One session in a vertical wind tunnel (iFLY etc.)",
+    "risk": {
+      "micromorts": 0.05,
+      "microlives": 0,
+      "lifeDisruption": 0,
+      "legal": 0
+    },
+    "fun": {
+      "dopamine": 6,
+      "subjectivePleasure": 4,
+      "flowState": 6,
+      "hedonicPurity": 9
+    },
+    "sources": [
+      {
+        "title": "Indoor Skydiving — Safety Overview",
+        "url": "https://www.indoorskydivingsource.com/safety/"
+      }
+    ]
+  },
+  {
+    "slug": "reading-book",
+    "name": "Reading a Book (2 hours)",
+    "emoji": "📚",
+    "category": "lifestyle",
+    "description": "Two hours of focused recreational reading",
+    "risk": {
+      "micromorts": 0,
+      "microlives": 0,
+      "lifeDisruption": 0,
+      "legal": 0
+    },
+    "fun": {
+      "dopamine": 3,
+      "subjectivePleasure": 3.8,
+      "flowState": 7,
+      "hedonicPurity": 10
+    },
+    "sources": [
+      {
+        "title": "WHO — Physical Activity and Sedentary Behaviour",
+        "url": "https://www.who.int/news-room/fact-sheets/detail/physical-activity"
+      }
+    ]
+  },
+  {
+    "slug": "painting-art",
+    "name": "Painting / Art Session",
+    "emoji": "🎨",
+    "category": "lifestyle",
+    "description": "2-3 hours of painting, drawing, or sculpting",
+    "risk": {
+      "micromorts": 0,
+      "microlives": 0,
+      "lifeDisruption": 0,
+      "legal": 0
+    },
+    "fun": {
+      "dopamine": 4,
+      "subjectivePleasure": 4,
+      "flowState": 8,
+      "hedonicPurity": 10
+    },
+    "sources": [
+      {
+        "title": "WHO — Physical Activity and Sedentary Behaviour",
+        "url": "https://www.who.int/news-room/fact-sheets/detail/physical-activity"
+      }
+    ]
+  },
+  {
+    "slug": "singing-lessons",
+    "name": "Taking Singing Lessons",
+    "emoji": "🎶",
+    "category": "lifestyle",
+    "description": "One hour vocal lesson with a teacher",
+    "risk": {
+      "micromorts": 0,
+      "microlives": 0,
+      "lifeDisruption": 0,
+      "legal": 0
+    },
+    "fun": {
+      "dopamine": 4,
+      "subjectivePleasure": 3.8,
+      "flowState": 7,
+      "hedonicPurity": 9
+    },
+    "sources": [
+      {
+        "title": "WHO — Physical Activity and Sedentary Behaviour",
+        "url": "https://www.who.int/news-room/fact-sheets/detail/physical-activity"
+      }
+    ]
+  },
+  {
+    "slug": "escape-room",
+    "name": "Escape Room",
+    "emoji": "🔐",
+    "category": "lifestyle",
+    "description": "One 60-minute escape room challenge with a group",
+    "risk": {
+      "micromorts": 0,
+      "microlives": 0,
+      "lifeDisruption": 0,
+      "legal": 0
+    },
+    "fun": {
+      "dopamine": 6,
+      "subjectivePleasure": 4,
+      "flowState": 8,
+      "hedonicPurity": 9
+    },
+    "sources": [
+      {
+        "title": "WHO — Physical Activity and Sedentary Behaviour",
+        "url": "https://www.who.int/news-room/fact-sheets/detail/physical-activity"
+      }
+    ]
+  },
+  {
+    "slug": "yoga-class",
+    "name": "Yoga Class (90 min)",
+    "emoji": "🧘‍♀️",
+    "category": "lifestyle",
+    "description": "90 minutes of vinyasa or hatha yoga",
+    "risk": {
+      "micromorts": 0.001,
+      "microlives": 0,
+      "lifeDisruption": 0,
+      "legal": 0
+    },
+    "fun": {
+      "dopamine": 3,
+      "subjectivePleasure": 3.8,
+      "flowState": 6,
+      "hedonicPurity": 9
+    },
+    "sources": [
+      {
+        "title": "Yoga Injuries — Systematic Review of Epidemiological Studies",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/27797734/"
+      }
+    ]
+  },
+  {
+    "slug": "learning-musical-instrument",
+    "name": "Practicing an Instrument (1 hour)",
+    "emoji": "🎹",
+    "category": "lifestyle",
+    "description": "One hour of focused practice on a musical instrument",
+    "risk": {
+      "micromorts": 0,
+      "microlives": 0,
+      "lifeDisruption": 0,
+      "legal": 0
+    },
+    "fun": {
+      "dopamine": 4,
+      "subjectivePleasure": 3.5,
+      "flowState": 8,
+      "hedonicPurity": 9
+    },
+    "sources": [
+      {
+        "title": "WHO — Physical Activity and Sedentary Behaviour",
+        "url": "https://www.who.int/news-room/fact-sheets/detail/physical-activity"
+      }
+    ]
+  },
+  {
+    "slug": "social-media-doomscroll",
+    "name": "Doomscrolling Social Media (2 hours)",
+    "emoji": "📱",
+    "category": "lifestyle",
+    "description": "Two hours of passive social media consumption",
+    "risk": {
+      "micromorts": 0,
+      "microlives": 0.15,
+      "lifeDisruption": 2,
+      "legal": 0
+    },
+    "fun": {
+      "dopamine": 5,
+      "subjectivePleasure": 2,
+      "flowState": 3,
+      "hedonicPurity": 1
+    },
+    "sources": [
+      {
+        "title": "APA — Social Media and Mental Health Advisory",
+        "url": "https://www.apa.org/topics/social-media-internet/health-advisory-adolescent-social-media-use"
+      },
+      {
+        "title": "WHO — Physical Activity and Sedentary Behaviour",
+        "url": "https://www.who.int/news-room/fact-sheets/detail/physical-activity"
+      }
+    ]
+  },
+  {
+    "slug": "stock-day-trading",
+    "name": "Stock Day Trading (Single Session)",
+    "emoji": "📈",
+    "category": "gambling",
+    "description": "One day of active intraday stock trading with frequent entries and exits.",
+    "risk": {
+      "micromorts": 0,
+      "microlives": 0.1,
+      "lifeDisruption": 6,
+      "legal": 0
+    },
+    "fun": {
+      "dopamine": 8,
+      "subjectivePleasure": 3.2,
+      "flowState": 7,
+      "hedonicPurity": 3
+    },
+    "sources": [
+      {
+        "title": "FINRA — Day Trading: Your Dollars at Risk",
+        "url": "https://www.finra.org/investors/investing/investment-products/stocks/day-trading"
+      },
+      {
+        "title": "Barber & Odean — Trading Is Hazardous to Your Wealth",
+        "url": "https://faculty.haas.berkeley.edu/odean/papers%20current%20versions/individual_investor_performance_final.pdf"
+      }
+    ]
+  },
+  {
+    "slug": "index-fund-investing-monthly",
+    "name": "Long-Term Index Fund Investing (Monthly Buy)",
+    "emoji": "🧺",
+    "category": "gambling",
+    "description": "Making a scheduled buy into a broad-market index fund and holding long term.",
+    "risk": {
+      "micromorts": 0,
+      "microlives": 0.01,
+      "lifeDisruption": 0.5,
+      "legal": 0
+    },
+    "fun": {
+      "dopamine": 3,
+      "subjectivePleasure": 2.8,
+      "flowState": 3,
+      "hedonicPurity": 7
+    },
+    "sources": [
+      {
+        "title": "S&P — SPIVA U.S. Scorecard",
+        "url": "https://www.spglobal.com/spdji/en/research-insights/spiva/"
+      },
+      {
+        "title": "Vanguard — Principles for Investing Success",
+        "url": "https://corporate.vanguard.com/content/corporatesite/us/en/corp/vemo/vemo-overview.html"
+      }
+    ]
+  },
+  {
+    "slug": "options-trading-weeklies",
+    "name": "Options Trading (Short-Dated Contracts)",
+    "emoji": "📉",
+    "category": "gambling",
+    "description": "Trading short-dated call and put options with leveraged exposure over a single session.",
+    "risk": {
+      "micromorts": 0,
+      "microlives": 0.2,
+      "lifeDisruption": 8,
+      "legal": 1
+    },
+    "fun": {
+      "dopamine": 8,
+      "subjectivePleasure": 3.5,
+      "flowState": 7,
+      "hedonicPurity": 2
+    },
+    "sources": [
+      {
+        "title": "OCC — Characteristics and Risks of Standardized Options",
+        "url": "https://www.theocc.com/Company-Information/Documents-and-Archives/Options-Disclosure-Document"
+      },
+      {
+        "title": "SEC — Investor Bulletin: An Introduction to Options",
+        "url": "https://www.sec.gov/resources-for-investors/investor-alerts-bulletins"
+      }
+    ]
+  },
+  {
+    "slug": "meme-stock-yolo-trade",
+    "name": "Meme Stock YOLO Trade",
+    "emoji": "🚀",
+    "category": "gambling",
+    "description": "Taking a concentrated short-term position in a viral, social-media driven stock.",
+    "risk": {
+      "micromorts": 0,
+      "microlives": 0.2,
+      "lifeDisruption": 8,
+      "legal": 0
+    },
+    "fun": {
+      "dopamine": 8,
+      "subjectivePleasure": 3.8,
+      "flowState": 6,
+      "hedonicPurity": 2
+    },
+    "sources": [
+      {
+        "title": "SEC — Staff Report on Meme Stock Market Conditions (2021)",
+        "url": "https://www.sec.gov/files/staff-report-equity-options-market-struction-conditions-early-2021.pdf"
+      },
+      {
+        "title": "SEC — Staff Report on Equity and Options Market Structure (2021)",
+        "url": "https://www.sec.gov/files/staff-report-equity-options-market-struction-conditions-early-2021.pdf"
+      }
+    ]
+  },
+  {
+    "slug": "nft-flipping",
+    "name": "NFT Flipping",
+    "emoji": "🖼️",
+    "category": "gambling",
+    "description": "Buying and quickly reselling NFTs based on hype, rarity, and short-term liquidity.",
+    "risk": {
+      "micromorts": 0,
+      "microlives": 0.1,
+      "lifeDisruption": 6,
+      "legal": 1
+    },
+    "fun": {
+      "dopamine": 6,
+      "subjectivePleasure": 2.8,
+      "flowState": 5,
+      "hedonicPurity": 3
+    },
+    "sources": [
+      {
+        "title": "Chainalysis — The NFT Market Report",
+        "url": "https://www.chainalysis.com/blog/nft-market-report/"
+      },
+      {
+        "title": "FTC — What to Know About Cryptocurrency and Scams",
+        "url": "https://consumer.ftc.gov/articles/what-know-about-cryptocurrency-and-scams"
+      }
+    ]
+  },
+  {
+    "slug": "forex-day-trading",
+    "name": "Forex Day Trading",
+    "emoji": "💱",
+    "category": "gambling",
+    "description": "Intraday currency trading with margin and rapid position turnover.",
+    "risk": {
+      "micromorts": 0,
+      "microlives": 0.2,
+      "lifeDisruption": 7,
+      "legal": 1
+    },
+    "fun": {
+      "dopamine": 7,
+      "subjectivePleasure": 3,
+      "flowState": 7,
+      "hedonicPurity": 2
+    },
+    "sources": [
+      {
+        "title": "ESMA — CFD and Binary Options Risk Warnings",
+        "url": "https://www.esma.europa.eu/sections/cfd-binary-options"
+      },
+      {
+        "title": "CFTC — Forex Fraud Advisory",
+        "url": "https://www.cftc.gov/LearnAndProtect/AdvisoriesAndArticles/forex_advisory.html"
+      }
+    ]
+  },
+  {
+    "slug": "sports-betting-parlay",
+    "name": "Sports Betting Parlay ($100)",
+    "emoji": "🎫",
+    "category": "gambling",
+    "description": "Placing a multi-leg parlay bet where all picks must hit for payout.",
+    "risk": {
+      "micromorts": 0,
+      "microlives": 0.02,
+      "lifeDisruption": 4,
+      "legal": 1
+    },
+    "fun": {
+      "dopamine": 7,
+      "subjectivePleasure": 3.7,
+      "flowState": 5,
+      "hedonicPurity": 3
+    },
+    "sources": [
+      {
+        "title": "American Gaming Association — Responsible Gaming Resources",
+        "url": "https://www.americangaming.org/resources/responsible-gaming/"
+      },
+      {
+        "title": "NCPG — Problem Gambling Resources",
+        "url": "https://www.ncpgambling.org/help-treatment/faq/"
+      }
+    ]
+  },
+  {
+    "slug": "penny-stock-trading",
+    "name": "Penny Stock Trading",
+    "emoji": "🪙",
+    "category": "gambling",
+    "description": "Trading thinly traded microcap stocks with high volatility and wide spreads.",
+    "risk": {
+      "micromorts": 0,
+      "microlives": 0.15,
+      "lifeDisruption": 7,
+      "legal": 1
+    },
+    "fun": {
+      "dopamine": 7,
+      "subjectivePleasure": 2.8,
+      "flowState": 6,
+      "hedonicPurity": 2
+    },
+    "sources": [
+      {
+        "title": "SEC — Microcap Stock Fraud",
+        "url": "https://www.sec.gov/resources-for-investors/investor-alerts-bulletins/investorpubsmicrocapstocktips"
+      },
+      {
+        "title": "FINRA — OTC Equity Trading and Market Quality",
+        "url": "https://www.finra.org/rules-guidance/key-topics/otc-equity-trading"
+      }
+    ]
+  },
+  {
+    "slug": "bitcoin-hodling",
+    "name": "Bitcoin HODLing (Buy and Hold)",
+    "emoji": "🟠",
+    "category": "gambling",
+    "description": "Buying bitcoin and holding through long-term volatility and drawdowns.",
+    "risk": {
+      "micromorts": 0,
+      "microlives": 0.05,
+      "lifeDisruption": 3,
+      "legal": 1
+    },
+    "fun": {
+      "dopamine": 5,
+      "subjectivePleasure": 2.8,
+      "flowState": 3,
+      "hedonicPurity": 4
+    },
+    "sources": [
+      {
+        "title": "Bitcoin Volatility Index",
+        "url": "https://www.buybitcoinworldwide.com/volatility-index/"
+      },
+      {
+        "title": "Chainalysis — Crypto Crime Report",
+        "url": "https://www.chainalysis.com/blog/crypto-crime-report/"
+      }
+    ]
+  },
+  {
+    "slug": "leveraged-etf-day-trade",
+    "name": "Leveraged ETF Day Trading",
+    "emoji": "⚡",
+    "category": "gambling",
+    "description": "Day trading leveraged or inverse ETFs designed for short holding periods.",
+    "risk": {
+      "micromorts": 0,
+      "microlives": 0.15,
+      "lifeDisruption": 7,
+      "legal": 0
+    },
+    "fun": {
+      "dopamine": 7,
+      "subjectivePleasure": 3.1,
+      "flowState": 6,
+      "hedonicPurity": 2
+    },
+    "sources": [
+      {
+        "title": "SEC — Leveraged and Inverse ETFs: Specialized Products",
+        "url": "https://www.sec.gov/resources-for-investors/investor-alerts-bulletins/ib-leveragedevandinverse"
+      },
+      {
+        "title": "FINRA — Complex Products",
+        "url": "https://www.finra.org/rules-guidance/key-topics/complex-products"
+      }
+    ]
+  },
+  {
+    "slug": "badminton-match",
+    "name": "Badminton Match",
+    "emoji": "🏸",
+    "category": "sports",
+    "description": "A 45-60 minute singles or doubles badminton match.",
+    "risk": {
+      "micromorts": 0.03,
+      "microlives": 0,
+      "lifeDisruption": 0.2,
+      "legal": 0
+    },
+    "fun": {
+      "dopamine": 5,
+      "subjectivePleasure": 3.8,
+      "flowState": 7,
+      "hedonicPurity": 9
+    },
+    "sources": [
+      {
+        "title": "Badminton Injuries — Systematic Review",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/20852842/"
+      },
+      {
+        "title": "BWF — Shuttle Time Safety Programme",
+        "url": "https://corporate.bwfbadminton.com/integrity/safeguarding/"
+      }
+    ]
+  },
+  {
+    "slug": "table-tennis-match",
+    "name": "Table Tennis Match",
+    "emoji": "🏓",
+    "category": "sports",
+    "description": "A recreational table tennis match played in a club, gym, or home setting.",
+    "risk": {
+      "micromorts": 0.01,
+      "microlives": 0,
+      "lifeDisruption": 0.1,
+      "legal": 0
+    },
+    "fun": {
+      "dopamine": 4,
+      "subjectivePleasure": 3.6,
+      "flowState": 6,
+      "hedonicPurity": 9
+    },
+    "sources": [
+      {
+        "title": "Table Tennis Injuries — Review of Literature",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/20852842/"
+      }
+    ]
+  },
+  {
+    "slug": "indoor-bouldering-session",
+    "name": "Indoor Bouldering Session",
+    "emoji": "🧗",
+    "category": "sports",
+    "description": "A gym bouldering session on short climbing problems above padded mats.",
+    "risk": {
+      "micromorts": 0.25,
+      "microlives": 0,
+      "lifeDisruption": 1,
+      "legal": 0
+    },
+    "fun": {
+      "dopamine": 6,
+      "subjectivePleasure": 4.2,
+      "flowState": 8,
+      "hedonicPurity": 9
+    },
+    "sources": [
+      {
+        "title": "Indoor Rock Climbing Injuries — Systematic Review",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/30859877/"
+      },
+      {
+        "title": "CWA — Climbing Industry Annual Report",
+        "url": "https://www.climbingwallindustry.org/"
+      }
+    ]
+  },
+  {
+    "slug": "ice-hockey-game",
+    "name": "Ice Hockey Game",
+    "emoji": "🏒",
+    "category": "sports",
+    "description": "A full recreational ice hockey game with checking risk and high-speed contact.",
+    "risk": {
+      "micromorts": 0.8,
+      "microlives": 0,
+      "lifeDisruption": 2,
+      "legal": 0
+    },
+    "fun": {
+      "dopamine": 7,
+      "subjectivePleasure": 4.1,
+      "flowState": 8,
+      "hedonicPurity": 8
+    },
+    "sources": [
+      {
+        "title": "Ice Hockey Injuries — Epidemiological Review",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/20852842/"
+      },
+      {
+        "title": "USA Hockey — Safety and Protective Equipment",
+        "url": "https://www.usahockey.com/safesport"
+      }
+    ]
+  },
+  {
+    "slug": "volleyball-game",
+    "name": "Volleyball Game",
+    "emoji": "🏐",
+    "category": "sports",
+    "description": "An indoor or beach volleyball game with repeated jumping and lateral movement.",
+    "risk": {
+      "micromorts": 0.08,
+      "microlives": 0,
+      "lifeDisruption": 0.5,
+      "legal": 0
+    },
+    "fun": {
+      "dopamine": 6,
+      "subjectivePleasure": 4,
+      "flowState": 7,
+      "hedonicPurity": 9
+    },
+    "sources": [
+      {
+        "title": "Volleyball Injuries — Systematic Review",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/29611022/"
+      }
+    ]
+  },
+  {
+    "slug": "cricket-match",
+    "name": "Cricket Match",
+    "emoji": "🏏",
+    "category": "sports",
+    "description": "A recreational cricket match including batting, bowling, and fielding.",
+    "risk": {
+      "micromorts": 0.1,
+      "microlives": 0,
+      "lifeDisruption": 0.5,
+      "legal": 0
+    },
+    "fun": {
+      "dopamine": 5,
+      "subjectivePleasure": 3.9,
+      "flowState": 7,
+      "hedonicPurity": 9
+    },
+    "sources": [
+      {
+        "title": "Cricket Injuries — Systematic Review",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/17293416/"
+      },
+      {
+        "title": "ICC — Player Safety and Medical",
+        "url": "https://www.icc-cricket.com/about/integrity/anti-corruption"
+      }
+    ]
+  },
+  {
+    "slug": "rowing-crew-session",
+    "name": "Rowing / Crew Session",
+    "emoji": "🚣",
+    "category": "sports",
+    "description": "A 60-90 minute rowing session on water or ergometer with a crew.",
+    "risk": {
+      "micromorts": 0.05,
+      "microlives": 0,
+      "lifeDisruption": 0.5,
+      "legal": 0
+    },
+    "fun": {
+      "dopamine": 5,
+      "subjectivePleasure": 3.8,
+      "flowState": 8,
+      "hedonicPurity": 9
+    },
+    "sources": [
+      {
+        "title": "Rowing Injuries — Epidemiological Review",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/25091037/"
+      },
+      {
+        "title": "USRowing — Safety Resources",
+        "url": "https://usrowing.org/sports/2022/6/16/safety-resources.aspx"
+      }
+    ]
+  },
+  {
+    "slug": "archery-session",
+    "name": "Archery Session",
+    "emoji": "🏹",
+    "category": "sports",
+    "description": "A structured target archery session at a supervised indoor or outdoor range.",
+    "risk": {
+      "micromorts": 0.02,
+      "microlives": 0,
+      "lifeDisruption": 0.2,
+      "legal": 0
+    },
+    "fun": {
+      "dopamine": 4,
+      "subjectivePleasure": 3.7,
+      "flowState": 7,
+      "hedonicPurity": 9
+    },
+    "sources": [
+      {
+        "title": "USA Archery — Safety Guidelines",
+        "url": "https://www.usaarchery.org/resources/safety/"
+      },
+      {
+        "title": "Archery Injuries — Emergency Department Data",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/24781327/"
+      }
+    ]
+  },
+  {
+    "slug": "fencing-match",
+    "name": "Fencing Match",
+    "emoji": "🤺",
+    "category": "sports",
+    "description": "A competitive fencing bout session with protective gear and electronic scoring.",
+    "risk": {
+      "micromorts": 0.06,
+      "microlives": 0,
+      "lifeDisruption": 0.3,
+      "legal": 0
+    },
+    "fun": {
+      "dopamine": 6,
+      "subjectivePleasure": 3.9,
+      "flowState": 8,
+      "hedonicPurity": 9
+    },
+    "sources": [
+      {
+        "title": "Fencing Injuries — Epidemiological Review",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/23392307/"
+      }
+    ]
+  },
+  {
+    "slug": "dodgeball-game",
+    "name": "Dodgeball Game",
+    "emoji": "🤾",
+    "category": "sports",
+    "description": "A recreational dodgeball game with repeated throwing, dodging, and short sprints.",
+    "risk": {
+      "micromorts": 0.05,
+      "microlives": 0,
+      "lifeDisruption": 0.3,
+      "legal": 0
+    },
+    "fun": {
+      "dopamine": 6,
+      "subjectivePleasure": 4.1,
+      "flowState": 7,
+      "hedonicPurity": 8
+    },
+    "sources": [
+      {
+        "title": "CPSC — Ball Sports Injury Data",
+        "url": "https://www.cpsc.gov/Research--Statistics/NEISS-Injury-Data"
+      }
+    ]
+  },
+  {
+    "slug": "competitive-fps-ranked-session",
+    "name": "Competitive FPS Ranked Session",
+    "emoji": "🎯",
+    "category": "lifestyle",
+    "description": "A ranked multiplayer session in a tactical FPS like CS2 or Valorant.",
+    "risk": {
+      "micromorts": 0,
+      "microlives": 0.08,
+      "lifeDisruption": 2,
+      "legal": 0
+    },
+    "fun": {
+      "dopamine": 7,
+      "subjectivePleasure": 3.6,
+      "flowState": 9,
+      "hedonicPurity": 5
+    },
+    "sources": [
+      {
+        "title": "Flow Experience in Esports — Systematic Review",
+        "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5504672/"
+      },
+      {
+        "title": "Sedentary Time and All-Cause Mortality — Meta-Analysis",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/22818936/"
+      }
+    ]
+  },
+  {
+    "slug": "battle-royale-session",
+    "name": "Battle Royale Session (Fortnite/Apex)",
+    "emoji": "🪂",
+    "category": "lifestyle",
+    "description": "A multi-match battle royale gaming session focused on survival and late-game wins.",
+    "risk": {
+      "micromorts": 0,
+      "microlives": 0.08,
+      "lifeDisruption": 2,
+      "legal": 0
+    },
+    "fun": {
+      "dopamine": 7,
+      "subjectivePleasure": 3.5,
+      "flowState": 8,
+      "hedonicPurity": 5
+    },
+    "sources": [
+      {
+        "title": "Player Experience in Battle Royale Games",
+        "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5504672/"
+      },
+      {
+        "title": "WHO — Physical Activity and Sedentary Behaviour",
+        "url": "https://www.who.int/news-room/fact-sheets/detail/physical-activity"
+      }
+    ]
+  },
+  {
+    "slug": "mmo-raid-night",
+    "name": "MMO Raid Night",
+    "emoji": "🛡️",
+    "category": "lifestyle",
+    "description": "A coordinated evening raid in an MMO such as WoW or FFXIV.",
+    "risk": {
+      "micromorts": 0,
+      "microlives": 0.1,
+      "lifeDisruption": 2.5,
+      "legal": 0
+    },
+    "fun": {
+      "dopamine": 6,
+      "subjectivePleasure": 3.8,
+      "flowState": 8,
+      "hedonicPurity": 6
+    },
+    "sources": [
+      {
+        "title": "Social Interaction and Wellbeing in MMORPGs",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/16942757/"
+      },
+      {
+        "title": "WHO — Physical Activity and Sedentary Behaviour",
+        "url": "https://www.who.int/news-room/fact-sheets/detail/physical-activity"
+      }
+    ]
+  },
+  {
+    "slug": "soulslike-boss-run",
+    "name": "Souls-like Boss Run",
+    "emoji": "⚔️",
+    "category": "lifestyle",
+    "description": "Repeated boss attempts in a high-difficulty action RPG like Elden Ring.",
+    "risk": {
+      "micromorts": 0,
+      "microlives": 0.06,
+      "lifeDisruption": 1.5,
+      "legal": 0
+    },
+    "fun": {
+      "dopamine": 6,
+      "subjectivePleasure": 3.2,
+      "flowState": 9,
+      "hedonicPurity": 6
+    },
+    "sources": [
+      {
+        "title": "Flow and Challenge in Video Games — Review",
+        "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5504672/"
+      },
+      {
+        "title": "WHO — Physical Activity and Sedentary Behaviour",
+        "url": "https://www.who.int/news-room/fact-sheets/detail/physical-activity"
+      }
+    ]
+  },
+  {
+    "slug": "racing-sim-session",
+    "name": "Racing Sim Session",
+    "emoji": "🏎️",
+    "category": "lifestyle",
+    "description": "A session of sim racing in titles like iRacing or Forza with wheel or controller.",
+    "risk": {
+      "micromorts": 0,
+      "microlives": 0.07,
+      "lifeDisruption": 1.5,
+      "legal": 0
+    },
+    "fun": {
+      "dopamine": 6,
+      "subjectivePleasure": 3.5,
+      "flowState": 8,
+      "hedonicPurity": 7
+    },
+    "sources": [
+      {
+        "title": "Driving Simulators and Immersion — Review",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/21803745/"
+      },
+      {
+        "title": "WHO — Physical Activity and Sedentary Behaviour",
+        "url": "https://www.who.int/news-room/fact-sheets/detail/physical-activity"
+      }
+    ]
+  },
+  {
+    "slug": "rhythm-game-session",
+    "name": "Rhythm Game Session",
+    "emoji": "🎵",
+    "category": "lifestyle",
+    "description": "A focused session of rhythm games such as Beat Saber or osu!.",
+    "risk": {
+      "micromorts": 0,
+      "microlives": 0.04,
+      "lifeDisruption": 1,
+      "legal": 0
+    },
+    "fun": {
+      "dopamine": 6,
+      "subjectivePleasure": 3.9,
+      "flowState": 9,
+      "hedonicPurity": 8
+    },
+    "sources": [
+      {
+        "title": "Rhythm Games and Cognitive Benefits — Review",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/29611022/"
+      },
+      {
+        "title": "WHO — Physical Activity and Sedentary Behaviour",
+        "url": "https://www.who.int/news-room/fact-sheets/detail/physical-activity"
+      }
+    ]
+  },
+  {
+    "slug": "horror-game-night",
+    "name": "Horror Game Night",
+    "emoji": "👻",
+    "category": "lifestyle",
+    "description": "A night session playing survival horror titles like Resident Evil or Outlast.",
+    "risk": {
+      "micromorts": 0,
+      "microlives": 0.05,
+      "lifeDisruption": 1,
+      "legal": 0
+    },
+    "fun": {
+      "dopamine": 5,
+      "subjectivePleasure": 3,
+      "flowState": 7,
+      "hedonicPurity": 4
+    },
+    "sources": [
+      {
+        "title": "Horror Entertainment — Psychological and Physiological Responses",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/30505085/"
+      },
+      {
+        "title": "WHO — Physical Activity and Sedentary Behaviour",
+        "url": "https://www.who.int/news-room/fact-sheets/detail/physical-activity"
+      }
+    ]
+  },
+  {
+    "slug": "minecraft-creative-session",
+    "name": "Minecraft Creative Session",
+    "emoji": "🧱",
+    "category": "lifestyle",
+    "description": "A creative-mode Minecraft session focused on building without combat pressure.",
+    "risk": {
+      "micromorts": 0,
+      "microlives": 0.03,
+      "lifeDisruption": 0.5,
+      "legal": 0
+    },
+    "fun": {
+      "dopamine": 5,
+      "subjectivePleasure": 4.2,
+      "flowState": 8,
+      "hedonicPurity": 9
+    },
+    "sources": [
+      {
+        "title": "Minecraft and Creativity — Research Review",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/30783893/"
+      },
+      {
+        "title": "WHO — Physical Activity and Sedentary Behaviour",
+        "url": "https://www.who.int/news-room/fact-sheets/detail/physical-activity"
+      }
+    ]
+  },
+  {
+    "slug": "mobile-gacha-game-session",
+    "name": "Mobile Gacha Game Session",
+    "emoji": "📱",
+    "category": "lifestyle",
+    "description": "An evening mobile gacha session including pulls, daily tasks, and event progression.",
+    "risk": {
+      "micromorts": 0,
+      "microlives": 0.06,
+      "lifeDisruption": 4,
+      "legal": 0
+    },
+    "fun": {
+      "dopamine": 7,
+      "subjectivePleasure": 3.2,
+      "flowState": 5,
+      "hedonicPurity": 3
+    },
+    "sources": [
+      {
+        "title": "Loot Boxes and Problem Gambling — Systematic Review",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/33045457/"
+      },
+      {
+        "title": "WHO — Gaming Disorder",
+        "url": "https://www.who.int/news-room/questions-and-answers/item/addictive-behaviours-gaming-disorder"
+      }
+    ]
+  },
+  {
+    "slug": "retro-speedrun-attempt",
+    "name": "Retro Speedrun Attempt",
+    "emoji": "⏱️",
+    "category": "lifestyle",
+    "description": "A timed run attempt in a classic game aiming for personal best pace.",
+    "risk": {
+      "micromorts": 0,
+      "microlives": 0.05,
+      "lifeDisruption": 1.5,
+      "legal": 0
+    },
+    "fun": {
+      "dopamine": 6,
+      "subjectivePleasure": 3.6,
+      "flowState": 9,
+      "hedonicPurity": 7
+    },
+    "sources": [
+      {
+        "title": "Speedrunning — Motivation and Community",
+        "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5504672/"
+      },
+      {
+        "title": "WHO — Physical Activity and Sedentary Behaviour",
+        "url": "https://www.who.int/news-room/fact-sheets/detail/physical-activity"
+      }
+    ]
+  }
+]

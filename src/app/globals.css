@@ -1,0 +1,74 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Geist", ui-sans-serif, system-ui, sans-serif;
+  --font-heading: "Instrument Serif", serif;
+
+  --color-background: oklch(0.145 0 0);       /* zinc-950 */
+  --color-foreground: oklch(0.985 0 0);        /* zinc-50 */
+
+  --color-card: oklch(0.21 0.006 285.885);     /* zinc-900 */
+  --color-card-foreground: oklch(0.985 0 0);
+
+  --color-popover: oklch(0.21 0.006 285.885);
+  --color-popover-foreground: oklch(0.985 0 0);
+
+  --color-primary: oklch(0.707 0.165 254.624); /* violet-500ish */
+  --color-primary-foreground: oklch(0.985 0 0);
+
+  --color-secondary: oklch(0.274 0.006 286);   /* zinc-800 */
+  --color-secondary-foreground: oklch(0.985 0 0);
+
+  --color-muted: oklch(0.274 0.006 286);       /* zinc-800 */
+  --color-muted-foreground: oklch(0.552 0 0);  /* zinc-500 */
+
+  --color-accent: oklch(0.274 0.006 286);
+  --color-accent-foreground: oklch(0.985 0 0);
+
+  --color-destructive: oklch(0.577 0.245 27.325);
+  --color-destructive-foreground: oklch(0.985 0 0);
+
+  --color-border: oklch(0.274 0.006 286);      /* zinc-800 */
+  --color-input: oklch(0.274 0.006 286);
+  --color-ring: oklch(0.707 0.165 254.624);
+
+  --radius-lg: 0.75rem;
+  --radius-md: calc(0.75rem - 2px);
+  --radius-sm: calc(0.75rem - 4px);
+
+  /* Accent colors for scores */
+  --color-fun: oklch(0.65 0.18 155);           /* emerald/green */
+  --color-risk: oklch(0.65 0.2 25);            /* red/rose */
+
+  --animate-accordion-down: accordion-down 0.2s ease-out;
+  --animate-accordion-up: accordion-up 0.2s ease-out;
+
+  @keyframes accordion-down {
+    from { height: 0; }
+    to { height: var(--radix-accordion-content-height); }
+  }
+  @keyframes accordion-up {
+    from { height: var(--radix-accordion-content-height); }
+    to { height: 0; }
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border outline-ring/50;
+  }
+  body {
+    @apply bg-background text-foreground font-sans antialiased;
+  }
+  .recharts-surface,
+  .recharts-surface *,
+  .recharts-wrapper,
+  .recharts-wrapper *,
+  .recharts-wrapper *:focus,
+  .recharts-wrapper *:focus-visible,
+  .recharts-wrapper *:active {
+    outline: none !important;
+    outline-offset: 0 !important;
+    box-shadow: none !important;
+  }
+}
