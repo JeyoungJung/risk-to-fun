@@ -55,7 +55,7 @@ export default function ExplorerClient({ activities, categories }: ExplorerClien
         />
         <div className="flex items-center gap-2">
           <Select value={sortBy} onValueChange={(v) => v && setSortBy(v)}>
-            <SelectTrigger className="h-10 bg-zinc-950 border-zinc-800/60 rounded-sm px-4 text-zinc-300 sm:w-48 focus:ring-1 focus:ring-zinc-700">
+            <SelectTrigger className="data-[size=default]:h-10 bg-zinc-950 border-zinc-800/60 rounded-sm px-4 text-zinc-300 sm:w-48 focus:ring-1 focus:ring-zinc-700">
               <SelectValue placeholder="Sort by..." />
             </SelectTrigger>
             <SelectContent alignItemWithTrigger={false} className="bg-zinc-950 border-zinc-800/60 text-zinc-300 text-sm min-w-[12rem] rounded-sm">

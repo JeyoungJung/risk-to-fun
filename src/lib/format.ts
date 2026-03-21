@@ -58,11 +58,11 @@ export function getCategoryEmoji(cat: string): string {
 }
 
 export function getVerdict(frr: number): string {
-  if (frr >= 2.5) return "Send it! 🚀";
-  if (frr >= 1.8) return "An absolute no-brainer ✅";
-  if (frr >= 1.3) return "Mathematically sound fun 👍";
-  if (frr >= 1.0) return "The logic is fuzzy, but the vibes are high 🤷‍♂️";
-  if (frr >= 0.8) return "High octane. Proceed with caution ⚠️";
-  if (frr >= 0.5) return "The risk-to-regret ratio is spiking 📉";
-  return "Nope. Respect yourself 🛑";
+  if (frr >= 2.5) return "Send it!";
+  if (frr >= 1.8) return "An absolute no-brainer";
+  if (frr >= 1.3) return "Mathematically sound fun";
+  if (frr >= 1.0) return "The logic is fuzzy, but the vibes are high";
+  if (frr >= 0.8) return "High octane. Proceed with caution";
+  if (frr >= 0.5) return "The risk-to-regret ratio is spiking";
+  return "Nope. Respect yourself";
 }

@@ -8,7 +8,6 @@ import {
   getTierColorClass,
   formatFRR,
   frrColor,
-  getCategoryEmoji,
   getVerdict,
 } from "@/lib/format";
 import { cn } from "@/lib/utils";
@@ -56,38 +55,42 @@ function CompareClient() {
     setSelectedSlugs(selectedSlugs.filter((s) => s !== slug));
   };
 
+  const canAddMoreActivities = selectedSlugs.length < 3;
+
   return (
     <div className="mx-auto max-w-5xl px-6 pt-32 pb-16 space-y-12">
       <div className="border-b border-zinc-800/40 pb-8">
-        <p className="text-zinc-500 font-medium text-[10px] tracking-[0.2em] uppercase mb-4">Analysis Tool</p>
-        <h1 className="text-4xl sm:text-5xl font-heading text-zinc-50 tracking-tight">Compare Activities</h1>
-        <p className="text-zinc-400 mt-4 font-light text-sm max-w-xl leading-relaxed">
-          Select up to 3 activities for side-by-side analysis to see which delivers better returns on your risk.
-        </p>
-      </div>
+        <div className="flex flex-col gap-8 lg:flex-row lg:items-end lg:justify-between">
+          <div>
+            <p className="text-zinc-500 font-medium text-[10px] tracking-[0.2em] uppercase mb-4">Analysis Tool</p>
+            <h1 className="text-4xl sm:text-5xl font-heading text-zinc-50 tracking-tight">Compare Activities</h1>
+            <p className="text-zinc-400 mt-4 font-light text-sm max-w-xl leading-relaxed">
+              Select up to 3 activities for side-by-side analysis to see which delivers better returns on your risk.
+            </p>
+          </div>
 
-      {selectedSlugs.length < 3 && (
-        <div className="max-w-sm">
-          <Select onValueChange={handleAddActivity}>
-            <SelectTrigger className="w-full bg-zinc-950 border-zinc-800/60 text-zinc-100 rounded-sm focus:ring-1 focus:ring-zinc-700">
-              <SelectValue placeholder="Add an activity to compare..." />
-            </SelectTrigger>
-            <SelectContent
-              alignItemWithTrigger={false}
-              side="bottom"
-              className="bg-zinc-950 border-zinc-800/60 max-h-72 rounded-sm"
-            >
-              {allActivities
-                .filter((a) => !selectedSlugs.includes(a.slug))
-                .map((a) => (
-                  <SelectItem key={a.slug} value={a.slug} className="text-zinc-300 focus:bg-zinc-900 focus:text-zinc-100 cursor-pointer text-sm">
-                    <span className="mr-2 opacity-80">{a.emoji ?? getCategoryEmoji(a.category)}</span> {a.name}
-                  </SelectItem>
-                ))}
-            </SelectContent>
-          </Select>
+          <div className="w-full max-w-sm lg:w-[22rem] lg:flex-shrink-0">
+            <Select onValueChange={handleAddActivity} disabled={!canAddMoreActivities}>
+              <SelectTrigger className="w-full bg-zinc-950 border-zinc-800/60 text-zinc-100 rounded-sm focus:ring-1 focus:ring-zinc-700 disabled:text-zinc-500 disabled:border-zinc-800/40 disabled:bg-zinc-950/60">
+                <SelectValue placeholder={canAddMoreActivities ? "Add an activity to compare..." : "3 activities selected"} />
+              </SelectTrigger>
+              <SelectContent
+                alignItemWithTrigger={false}
+                side="bottom"
+                className="bg-zinc-950 border-zinc-800/60 max-h-72 rounded-sm"
+              >
+                {allActivities
+                  .filter((a) => !selectedSlugs.includes(a.slug))
+                  .map((a) => (
+                    <SelectItem key={a.slug} value={a.slug} className="text-zinc-300 focus:bg-zinc-900 focus:text-zinc-100 cursor-pointer text-sm">
+                      {a.name}
+                    </SelectItem>
+                  ))}
+              </SelectContent>
+            </Select>
+          </div>
         </div>
-      )}
+      </div>
 
       {selectedActivities.length === 0 ? (
         <div className="text-center py-32 text-zinc-500 border border-zinc-800/40 rounded-sm bg-zinc-950/50">
@@ -106,10 +109,19 @@ function CompareClient() {
               )}
             >
               <CardContent className="p-8 flex flex-col flex-1">
-                <div className="flex items-start justify-between mb-8">
-                  <div className="space-y-3">
-                    <span className="text-3xl opacity-80">{activity.emoji ?? getCategoryEmoji(activity.category)}</span>
-                    <h2 className="text-2xl font-serif tracking-tight text-zinc-100">{activity.name}</h2>
+                <div className="flex items-start justify-between mb-8 min-h-28">
+                  <div className="flex min-h-28 flex-1 flex-col pr-6">
+                    <div className="min-h-16">
+                      <h2 className="text-2xl font-serif tracking-tight text-zinc-100">{activity.name}</h2>
+                    </div>
+
+                    <div className="mt-4 min-h-7">
+                      {winner?.slug === activity.slug && selectedActivities.length > 1 && (
+                        <Badge className="bg-emerald-500/10 text-emerald-400 border-emerald-500/20 text-[10px] uppercase tracking-widest font-normal rounded-sm">
+                          Best Choice
+                        </Badge>
+                      )}
+                    </div>
                   </div>
                   <Button
                     variant="ghost"
@@ -120,14 +132,6 @@ function CompareClient() {
                     ✕
                   </Button>
                 </div>
-
-                {winner?.slug === activity.slug && selectedActivities.length > 1 && (
-                  <div className="mb-6">
-                     <Badge className="bg-emerald-500/10 text-emerald-400 border-emerald-500/20 text-[10px] uppercase tracking-widest font-normal rounded-sm">
-                       Best Choice
-                     </Badge>
-                  </div>
-                )}
 
                 <div className="grid grid-cols-2 gap-px bg-zinc-800/40 border border-zinc-800/40 rounded-sm overflow-hidden mb-8">
                   <div className="bg-zinc-950 p-4 text-center">
@@ -149,18 +153,18 @@ function CompareClient() {
                   </div>
                   <div className="flex justify-between items-center text-sm border-b border-zinc-800/40 pb-3">
                     <span className="text-zinc-500 text-[10px] uppercase tracking-widest">Worth It</span>
-                    <span className="text-violet-400 text-lg">{Math.round(activity.scores.worthIt)}</span>
+                    <span className="font-heading text-lg text-violet-400">{Math.round(activity.scores.worthIt)}</span>
                   </div>
                 </div>
 
-                <div className="flex items-center gap-3 justify-between mt-auto pt-6 border-t border-zinc-800/40">
+                <div className="mt-auto flex min-h-16 items-center gap-3 justify-between pt-6 border-t border-zinc-800/40">
                   <Badge
                     variant="outline"
                     className={cn("border rounded-sm text-[9px] uppercase tracking-widest font-normal px-2", getTierColorClass(activity.scores.tier))}
                   >
                     {activity.scores.tier}
                   </Badge>
-                  <span className="text-[10px] text-zinc-500 uppercase tracking-widest">{getVerdict(activity.scores.frr)}</span>
+                  <span className="max-w-[12rem] text-right text-[10px] text-zinc-500 uppercase tracking-widest">{getVerdict(activity.scores.frr)}</span>
                 </div>
 
                 <Link
