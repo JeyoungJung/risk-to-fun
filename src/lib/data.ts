@@ -2,22 +2,13 @@ import activitiesData from "../../data/activities/index.json";
 import { Activity, ScoredActivity } from "@/types/activity";
 import { scoreActivity } from "./scoring";
 
-const activities: Activity[] = (activitiesData as any);
+const activities: Activity[] = activitiesData as Activity[];
 
 export function getAllActivities(): ScoredActivity[] {
   return activities.map((activity) => ({
     ...activity,
     scores: scoreActivity(activity),
   }));
-}
-
-export function getActivityBySlug(slug: string): ScoredActivity | undefined {
-  const activity = activities.find((a) => a.slug === slug);
-  if (!activity) return undefined;
-  return {
-    ...activity,
-    scores: scoreActivity(activity),
-  };
 }
 
 export function getCategories() {
@@ -35,6 +26,12 @@ export function getCategories() {
   ];
 }
 
-export function getActivitiesByCategory(categoryId: string): ScoredActivity[] {
-  return getAllActivities().filter((a) => a.category === categoryId);
+export function getActivityBySlug(slug: string): ScoredActivity | undefined {
+  const activity = activities.find((a) => a.slug === slug);
+  if (!activity) return undefined;
+  return {
+    ...activity,
+    scores: scoreActivity(activity),
+  };
 }
+

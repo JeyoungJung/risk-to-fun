@@ -1,5 +1,3 @@
-import type { ComputedScores } from "@/types/activity";
-
 export function getTierColorClass(tier: string): string {
   const map: Record<string, string> = {
     "The Void": "bg-zinc-800 text-zinc-400 border-zinc-700",
