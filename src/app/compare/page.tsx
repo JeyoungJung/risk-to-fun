@@ -58,13 +58,13 @@ function CompareClient() {
   const canAddMoreActivities = selectedSlugs.length < 3;
 
   return (
-    <div className="mx-auto max-w-5xl px-6 pt-32 pb-16 space-y-12">
-      <div className="border-b border-zinc-800/40 pb-8">
-        <div className="flex flex-col gap-8 lg:flex-row lg:items-end lg:justify-between">
+    <div className="mx-auto max-w-5xl px-4 sm:px-6 pt-24 sm:pt-32 pb-12 sm:pb-16 space-y-8 sm:space-y-12">
+      <div className="border-b border-zinc-800/40 pb-6 sm:pb-8">
+        <div className="flex flex-col gap-6 sm:gap-8 lg:flex-row lg:items-end lg:justify-between">
           <div>
             <p className="text-zinc-500 font-medium text-[10px] tracking-[0.2em] uppercase mb-4">Analysis Tool</p>
-            <h1 className="text-4xl sm:text-5xl font-heading text-zinc-50 tracking-tight">Compare Activities</h1>
-            <p className="text-zinc-400 mt-4 font-light text-sm max-w-xl leading-relaxed">
+            <h1 className="text-3xl sm:text-5xl font-heading text-zinc-50 tracking-tight">Compare Activities</h1>
+            <p className="text-zinc-400 mt-3 sm:mt-4 font-light text-sm max-w-xl leading-relaxed">
               Select up to 3 activities for side-by-side analysis to see which delivers better returns on your risk.
             </p>
           </div>
@@ -93,7 +93,7 @@ function CompareClient() {
       </div>
 
       {selectedActivities.length === 0 ? (
-        <div className="text-center py-32 text-zinc-500 border border-zinc-800/40 rounded-sm bg-zinc-950/50">
+        <div className="text-center py-20 sm:py-32 px-6 text-zinc-500 border border-zinc-800/40 rounded-sm bg-zinc-950/50">
           <p className="text-sm font-light uppercase tracking-wider">Select activities above to start comparing.</p>
         </div>
       ) : (
@@ -108,14 +108,14 @@ function CompareClient() {
                   "border-emerald-500/30 bg-emerald-950/5"
               )}
             >
-              <CardContent className="p-8 flex flex-col flex-1">
-                <div className="flex items-start justify-between mb-8 min-h-28">
-                  <div className="flex min-h-28 flex-1 flex-col pr-6">
-                    <div className="min-h-16">
-                      <h2 className="text-2xl font-serif tracking-tight text-zinc-100">{activity.name}</h2>
+              <CardContent className="p-5 sm:p-8 flex flex-col flex-1">
+                <div className="flex items-start justify-between mb-6 sm:mb-8 min-h-24 sm:min-h-28">
+                  <div className="flex min-h-24 sm:min-h-28 flex-1 flex-col pr-4 sm:pr-6">
+                    <div className="min-h-12 sm:min-h-16">
+                      <h2 className="text-xl sm:text-2xl font-serif tracking-tight text-zinc-100">{activity.name}</h2>
                     </div>
 
-                    <div className="mt-4 min-h-7">
+                    <div className="mt-3 sm:mt-4 min-h-7">
                       {winner?.slug === activity.slug && selectedActivities.length > 1 && (
                         <Badge className="bg-emerald-500/10 text-emerald-400 border-emerald-500/20 text-[10px] uppercase tracking-widest font-normal rounded-sm">
                           Best Choice
@@ -133,43 +133,43 @@ function CompareClient() {
                   </Button>
                 </div>
 
-                <div className="grid grid-cols-2 gap-px bg-zinc-800/40 border border-zinc-800/40 rounded-sm overflow-hidden mb-8">
-                  <div className="bg-zinc-950 p-4 text-center">
-                    <p className="text-3xl font-heading text-emerald-400">{Math.round(activity.scores.fun)}</p>
+                <div className="grid grid-cols-2 gap-px bg-zinc-800/40 border border-zinc-800/40 rounded-sm overflow-hidden mb-6 sm:mb-8">
+                  <div className="bg-zinc-950 p-3 sm:p-4 text-center">
+                    <p className="text-[1.75rem] sm:text-3xl font-heading text-emerald-400">{Math.round(activity.scores.fun)}</p>
                     <p className="text-[10px] uppercase tracking-widest text-zinc-500 mt-1">Fun</p>
                   </div>
-                  <div className="bg-zinc-950 p-4 text-center">
-                    <p className="text-3xl font-heading text-red-400">{Math.round(activity.scores.risk)}</p>
+                  <div className="bg-zinc-950 p-3 sm:p-4 text-center">
+                    <p className="text-[1.75rem] sm:text-3xl font-heading text-red-400">{Math.round(activity.scores.risk)}</p>
                     <p className="text-[10px] uppercase tracking-widest text-zinc-500 mt-1">Risk</p>
                   </div>
                 </div>
 
-                <div className="space-y-4 mb-8 flex-1">
+                <div className="space-y-3 sm:space-y-4 mb-6 sm:mb-8 flex-1">
                   <div className="flex justify-between items-center text-sm border-b border-zinc-800/40 pb-3">
                     <span className="text-zinc-500 text-[10px] uppercase tracking-widest">FRR</span>
-                    <span className={cn("font-heading text-lg", frrColor(activity.scores.frr))}>
+                    <span className={cn("font-heading text-base sm:text-lg", frrColor(activity.scores.frr))}>
                       {formatFRR(activity.scores.frr)}
                     </span>
                   </div>
                   <div className="flex justify-between items-center text-sm border-b border-zinc-800/40 pb-3">
                     <span className="text-zinc-500 text-[10px] uppercase tracking-widest">Worth It</span>
-                    <span className="font-heading text-lg text-violet-400">{Math.round(activity.scores.worthIt)}</span>
+                    <span className="font-heading text-base sm:text-lg text-violet-400">{Math.round(activity.scores.worthIt)}</span>
                   </div>
                 </div>
 
-                <div className="mt-auto flex min-h-16 items-center gap-3 justify-between pt-6 border-t border-zinc-800/40">
+                <div className="mt-auto flex min-h-16 items-start sm:items-center gap-3 justify-between pt-5 sm:pt-6 border-t border-zinc-800/40">
                   <Badge
                     variant="outline"
                     className={cn("border rounded-sm text-[9px] uppercase tracking-widest font-normal px-2", getTierColorClass(activity.scores.tier))}
                   >
                     {activity.scores.tier}
                   </Badge>
-                  <span className="max-w-[12rem] text-right text-[10px] text-zinc-500 uppercase tracking-widest">{getVerdict(activity.scores.frr)}</span>
+                  <span className="max-w-[10rem] sm:max-w-[12rem] text-right text-[10px] leading-relaxed text-zinc-500 uppercase tracking-widest">{getVerdict(activity.scores.frr)}</span>
                 </div>
 
                 <Link
                   href={`/activity/${activity.slug}`}
-                  className="block text-center text-xs tracking-wider uppercase text-zinc-400 hover:text-zinc-200 transition-colors mt-8 pt-4 border-t border-zinc-800/40"
+                  className="block text-center text-xs tracking-wider uppercase text-zinc-400 hover:text-zinc-200 transition-colors mt-6 sm:mt-8 pt-4 border-t border-zinc-800/40"
                 >
                   View Analysis
                 </Link>
