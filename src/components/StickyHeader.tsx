@@ -34,7 +34,17 @@ export function StickyHeader() {
           <span className="font-heading text-xl tracking-tight text-zinc-100">Fun÷Risk</span>
         </Link>
         <div className="flex items-center gap-8 text-[10px] uppercase tracking-[0.2em] text-zinc-500">
-          <Link href="/" className="hover:text-zinc-200 transition-colors">
+          <Link
+            href="/#explorer"
+            onClick={(e) => {
+              const el = document.getElementById("explorer");
+              if (el) {
+                e.preventDefault();
+                el.scrollIntoView({ behavior: "smooth" });
+              }
+            }}
+            className="hover:text-zinc-200 transition-colors"
+          >
             Explorer
           </Link>
           <Link href="/compare" className="hover:text-zinc-200 transition-colors">
