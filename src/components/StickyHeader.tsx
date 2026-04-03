@@ -29,12 +29,12 @@ export function StickyHeader() {
           : "-translate-y-full opacity-0"
       }`}
     >
-      <nav className="mx-auto flex max-w-6xl items-center justify-between px-6 py-4">
-        <Link href="/" className="flex items-center gap-3 opacity-90 hover:opacity-100 transition-opacity">
-          <span className="text-xl">⚖️</span>
-          <span className="font-heading text-xl tracking-tight text-zinc-100">Fun÷Risk</span>
+      <nav className="mx-auto flex max-w-6xl items-center justify-between px-4 py-3 sm:px-6 sm:py-4">
+        <Link href="/" className="flex items-center gap-2 sm:gap-3 opacity-90 hover:opacity-100 transition-opacity shrink-0">
+          <span className="text-xl hidden sm:inline">⚖️</span>
+          <span className="font-heading text-lg sm:text-xl tracking-tight text-zinc-100">Fun÷Risk</span>
         </Link>
-        <div className="flex items-center gap-8 text-[10px] uppercase tracking-[0.2em] text-zinc-500">
+        <div className="flex items-center gap-4 sm:gap-8 text-[9px] sm:text-[10px] uppercase tracking-[0.15em] sm:tracking-[0.2em] text-zinc-500">
           <HashLink href="/#explorer" className="hover:text-zinc-200 transition-colors">
             Explorer
           </HashLink>
