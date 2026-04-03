@@ -4,6 +4,7 @@ import { Instrument_Serif } from "next/font/google";
 import "./globals.css";
 import { TooltipProvider } from "@/components/ui/tooltip";
 import { StickyHeader } from "@/components/StickyHeader";
+import { HashLink } from "@/components/HashLink";
 import Link from "next/link";
 
 const geist = Geist({
@@ -49,7 +50,7 @@ export default function RootLayout({
                 <div className="space-y-4">
                   <p className="text-[10px] text-zinc-600 uppercase tracking-[0.2em] font-medium">Directory</p>
                   <nav className="flex flex-col gap-3">
-                    <Link href="/#explorer" className="text-xs tracking-wide uppercase text-zinc-400 hover:text-zinc-200 transition-colors">Explorer</Link>
+                    <HashLink href="/#explorer" className="text-xs tracking-wide uppercase text-zinc-400 hover:text-zinc-200 transition-colors">Explorer</HashLink>
                     <Link href="/compare" className="text-xs tracking-wide uppercase text-zinc-400 hover:text-zinc-200 transition-colors">Compare</Link>
                     <Link href="/methodology" className="text-xs tracking-wide uppercase text-zinc-400 hover:text-zinc-200 transition-colors">Methodology</Link>
                   </nav>
@@ -58,10 +59,10 @@ export default function RootLayout({
                 <div className="space-y-4">
                   <p className="text-[10px] text-zinc-600 uppercase tracking-[0.2em] font-medium">Documentation</p>
                   <nav className="flex flex-col gap-3">
-                    <Link href="/methodology#risk" className="text-xs tracking-wide uppercase text-zinc-400 hover:text-zinc-200 transition-colors">Risk Algorithm</Link>
-                    <Link href="/methodology#fun" className="text-xs tracking-wide uppercase text-zinc-400 hover:text-zinc-200 transition-colors">Fun Algorithm</Link>
-                    <Link href="/methodology#outputs" className="text-xs tracking-wide uppercase text-zinc-400 hover:text-zinc-200 transition-colors">Output Metrics</Link>
-                    <Link href="/methodology#science" className="text-xs tracking-wide uppercase text-zinc-400 hover:text-zinc-200 transition-colors">Scientific Foundations</Link>
+                    <HashLink href="/methodology#risk" className="text-xs tracking-wide uppercase text-zinc-400 hover:text-zinc-200 transition-colors">Risk Algorithm</HashLink>
+                    <HashLink href="/methodology#fun" className="text-xs tracking-wide uppercase text-zinc-400 hover:text-zinc-200 transition-colors">Fun Algorithm</HashLink>
+                    <HashLink href="/methodology#outputs" className="text-xs tracking-wide uppercase text-zinc-400 hover:text-zinc-200 transition-colors">Output Metrics</HashLink>
+                    <HashLink href="/methodology#science" className="text-xs tracking-wide uppercase text-zinc-400 hover:text-zinc-200 transition-colors">Scientific Foundations</HashLink>
                   </nav>
                 </div>
               </div>

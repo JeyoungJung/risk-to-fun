@@ -1,9 +1,5 @@
 @import "tailwindcss";
 
-html {
-  scroll-behavior: smooth;
-}
-
 @theme {
   --font-sans: "Geist", ui-sans-serif, system-ui, sans-serif;
   --font-heading: "Instrument Serif", serif;

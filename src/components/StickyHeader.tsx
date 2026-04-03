@@ -3,6 +3,7 @@
 import { useEffect, useState } from "react";
 import { usePathname } from "next/navigation";
 import Link from "next/link";
+import { HashLink } from "./HashLink";
 
 export function StickyHeader() {
   const [visible, setVisible] = useState(false);
@@ -34,19 +35,9 @@ export function StickyHeader() {
           <span className="font-heading text-xl tracking-tight text-zinc-100">Fun÷Risk</span>
         </Link>
         <div className="flex items-center gap-8 text-[10px] uppercase tracking-[0.2em] text-zinc-500">
-          <Link
-            href="/#explorer"
-            onClick={(e) => {
-              const el = document.getElementById("explorer");
-              if (el) {
-                e.preventDefault();
-                el.scrollIntoView({ behavior: "smooth" });
-              }
-            }}
-            className="hover:text-zinc-200 transition-colors"
-          >
+          <HashLink href="/#explorer" className="hover:text-zinc-200 transition-colors">
             Explorer
-          </Link>
+          </HashLink>
           <Link href="/compare" className="hover:text-zinc-200 transition-colors">
             Compare
           </Link>
